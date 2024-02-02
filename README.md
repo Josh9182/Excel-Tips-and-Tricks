@@ -3,13 +3,15 @@ This a compilation of the most commonly used functions and tricks used frequentl
 ## Logical Operation Functions "IF()"
 The "IF()" function is crucial in data analysis. It helps provide different outcomes based on whether a condition is true or false. You can use it alone or combine it for a more comprehensive examination. 
 
-Common "IF()" Variations:
+**Common "IF()" Variations:**
 There are various functions built around "IF()" that enhance its capabilities. Here are three important ones:
 
-SUMIF(): Adds up values that meet a specific condition.
-AVERAGEIF(): Calculates the average of values that meet a specific condition.
-COUNTIF(): Counts the number of cells that meet a specifiec ondition.
+**SUMIF():** Adds up values that meet a specific condition.
+**AVERAGEIF():** Calculates the average of values that meet a specific condition.
+**COUNTIF():** Counts the number of cells that meet a specifiec ondition.
 Usual Format:
+
+
 All these "IF()" functions follow the same structure. You set the range of cells that will be used to generalize the criteria, followed by the more specific cells known as the criteria. Based on whether it's true or false, the function does something specific with the data.
 
 In summary, "IF()" and its related functions are like a Swiss Army knife for data analysis, allowing you to precisely analyze and manipulate data based on conditions.
