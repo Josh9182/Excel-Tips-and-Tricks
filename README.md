@@ -2,8 +2,8 @@
 This a compilation of the most commonly used functions and tricks used frequently to make data analysis just a little bit easier!
 
 ## Content
-* [Logical Functions](#Logical-Operation-Functions-"IF()")
-  *    [Common Variations](#**Common-"IF()"-Variations**)
+* [Logical Functions](#Logical-Operation-Functions-IF)
+  *    [Common Variations](#**Common-IF()-Variations**)
   * [Example](#Check-the-Average-value-of-(Money-Spent)-Column-D-by-(France)-Column/Row-A8-using-the-"AVERAGEIF()"-function)
 
 ## Logical Operation Functions "IF()"
