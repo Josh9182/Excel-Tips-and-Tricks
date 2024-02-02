@@ -6,7 +6,11 @@ Functions that include the "IF()" function allow the user to check the condition
 ```
 =AVERAGEIF(Range,Criteria, Average_range) -> =AVERAGEIF(A:A,A8,D:D)
 ```
-The function above lists several parts needed to perform the function correctly. Range, the condition that asks the user to locate the range of cells that will be evaluated. In this example the range would be column A, which is the "Country" column, in which "France" is located in. When selected column A is shown as A:A. Criteria, the condition which narrows down which cell would be selected in the range, whether it be expression, number, or text. In this example, the criteria would be "France" as we are trying to find the money spent by "France", which is located in the "Country" colummn. Lastly, the Average_range, a condition which is asking what are the actual cells which are to be averaged. In this example, the Average_range would be Column D, or "Money Spent". 
+**Range**: This is the set of cells you want to evaluate. In our example, it's Column A, representing the "Country" column. When selected, it's written as A:A.
+
+**Criteria**: This is the condition that helps narrow down the selection in the range. In our case, the criteria is "France" because we want to find the money spent by "France" in the "Country" column.
+
+**Average_range**: This condition specifies the cells that need to be averaged. In the example, it's Column D, representing the "Money Spent" column.
 
 
 IFS(), SWITCH(),
