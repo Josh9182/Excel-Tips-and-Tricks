@@ -38,4 +38,7 @@ In summary, "IF()" and its related functions are like a Swiss Army knife for dat
 ## Logical Operation Functions "IFS()"
 Like the "IF()" function above, "IFS" allow the user to check more than 1 condition(s) of a formula with more detail. The number of "IFS()" conditions are limitless, as long as the criteria and range can coexist. In the example below the function "MAXIFS()" will be used. 
 
-### Check the average value of "Money Spent" Column D by "France" Column & Row A8 using the "AVERAGEIF()" function
+### Check the maximum value of "Money Spent" Column D by "France" Column & Row A8 using the "AVERAGEIF()" function
+```
+=MAXIFS(Max_range,Criteria_range1,Criteria1,...)
+```
