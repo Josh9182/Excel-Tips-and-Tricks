@@ -1,5 +1,19 @@
 # Excel-Tips-and-Tricks
 This a compilation of the most commonly used functions and tricks used frequently to make data analysis just a little bit easier!
+
+## Content
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+
+
 ## Logical Operation Functions "IF()"
 The "IF()" function is crucial in data analysis. It helps provide different outcomes based on whether a condition is true or false. You can use it alone or combine it for a more comprehensive examination. 
 
