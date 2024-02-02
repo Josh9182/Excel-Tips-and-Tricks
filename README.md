@@ -5,7 +5,7 @@ This a compilation of the most commonly used functions and tricks used frequentl
 * [Logical Functions "IF"](#Logical-Operation-Functions-IF)
   * [Common Variations](#Common-IF-Variations)
   * [Function Example](#check-the-average-value-of-money-spent-column-d-by-france-column--row-a8-using-the-averageif-function)
-* [Logical Functions "IFS"](Logical-Operation-Functions-IFS)
+* [Logical Functions "IFS"](#logical-operation-functions-IFS)
 
 ## Logical Operation Functions "IF()"
 The "IF()" function is crucial in data analysis. It helps provide different outcomes based on whether a condition is true or false. You can use it alone or combine it for a more comprehensive examination. 
