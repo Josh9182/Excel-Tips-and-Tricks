@@ -1,6 +1,6 @@
 # Excel-Tips-and-Tricks
 This a compilation of the most commonly used functions and tricks used frequently to make data analysis just a little bit easier!
-## Logical Operation Functions
+## Logical Operation Functions "IF()"
 Functions that include the "IF()" function allow the user to check the conditions of a formula with more detail. In the example below it will be shown through "AVERAGEIF()", however every "IF()" function is the exact same format besides the function type. 
 
 
@@ -17,8 +17,5 @@ Functions that include the "IF()" function allow the user to check the condition
 
 **Average_range**: This condition specifies the cells that need to be averaged. In the example, it's Column D, representing the "Money Spent" column.
 
-
-IFS(), SWITCH(),
-SUMIF(), AVERAGEIF(), COUNTIF(), SUMIFS(), AVERAGEIFS(), COUNTIFS(), MAXIFS(),
-MINIFS()) 
-
+## Logical Operation Functions "IFS()"
+Like the "IF()" function above, "IFS" allow the user to check conditions of a formula with more detail. However, besides 1 condition, it can be ∞, as long as the criteria and range can coexist. In the example below it will be shown through "MAXIFS()". 
