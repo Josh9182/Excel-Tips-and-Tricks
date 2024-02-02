@@ -3,12 +3,12 @@ This a compilation of the most commonly used functions and tricks used frequentl
 
 ## Content
 * [Logical Functions](#Logical-Operation-Functions-"IF()")
-* [Common Variations](#Common-"IF()"-Variations:)
+  * [Common Variations](#Common-"IF()"-Variations)
 
 ## Logical Operation Functions "IF()"
 The "IF()" function is crucial in data analysis. It helps provide different outcomes based on whether a condition is true or false. You can use it alone or combine it for a more comprehensive examination. 
 
-### **Common "IF()" Variations:**
+### **Common "IF()" Variations**
 There are various functions built around "IF()" that enhance its capabilities. Here are three important ones:
 
 **SUMIF():** Adds up values that meet a specific condition.
