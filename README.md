@@ -1,7 +1,7 @@
 # Excel-Tips-and-Tricks
 This a compilation of the most commonly used functions and tricks used frequently to make data analysis just a little bit easier!
 ## Logical Operation Functions
-Functions that include the "IF()" function allow the user to check the conditions of a formula with more detail. 
+Functions that include the "IF()" function allow the user to check the conditions of a formula with more detail. In the example below it will be shown through "AVERAGEIF()", however every "IF()" function is the exact same format besides the function type. 
 ### Check the Average value of (Money Spent) Column D by (France) Column:Row A8 using the "AVERAGEIF()" function.
 ```
 =AVERAGEIF(Range,Criteria, Average_range) -> =AVERAGEIF(A:A,A8,D:D)
