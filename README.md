@@ -1,6 +1,8 @@
 # Excel-Tips-and-Tricks
 This a compilation of the most commonly used functions and tricks used frequently to make data analysis just a little bit easier!
 ## Logical Operation Functions "IF()"
+"IF()" is one of the single most important function that can be used in data analysis. As a solitary function "IF()" providers true or false statments with the user being able to manipulate the text result if either true or false. Several functions can be used with "IF()" whether it be its own function (SUMIF()) or a manual combination IF(COUNTIF()). 
+
 Functions that include the "IF()" function allow the user to check the conditions of a formula with more detail. In the example below it will be shown through "AVERAGEIF()", however every "IF()" function is the exact same format besides the function type. 
 
 
