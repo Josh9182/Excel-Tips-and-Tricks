@@ -36,9 +36,3 @@ In summary, "IF()" and its related functions are like a Swiss Army knife for dat
 
 ## Logical Operation Functions "IFS()"
 Like the "IF()" function above, "IFS" allow the user to check conditions of a formula with more detail. However, besides 1 condition, it can be ∞, as long as the criteria and range can coexist. In the example below it will be shown through "MAXIFS()". 
-
-
-
-* [Logical Functions](#Logical-Operation-Functions-"IF()")
-  *    [Common Variations](#**Common-"IF()"-Variations**)
-  * [Example](#Check-the-Average-value-of-(Money-Spent)-Column-D-by-(France)-Column/Row-A8-using-the-"AVERAGEIF()"-function)
