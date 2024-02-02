@@ -3,58 +3,6 @@ This a compilation of the most commonly used functions and tricks used frequentl
 
 ## Content
 * [Logical Functions](#Logical-Operation-Functions-"IF()")
-  *s
-  
-  *s
-  
-  *ss
-  
-  *
-  
-  *ss
-  
-  *
-  
-  *s
-  
-  *s
-  
-  *s
-  
-  *s
-  
-  *s
-  
-  *s
-  
-  *s
-  
-  *s
-  
-  *s
-  *s
-  *s
-  *s
-  *ss
-  *s
-  *s
-  *s
-  *s
-  *s
-  *s
-  *
-  *ss
-  *
-  *s
-  *s
-  *s
-  *s
-  *s
-  *s
-  *s
-  *s
-  *s
-  *s
   *    [Common Variations](#Common-"IF()"-Variations)
   * [Example](#Check-the-Average-value-of-(Money-Spent)-Column-D-by-(France)-Column/Row-A8-using-the-"AVERAGEIF()"-function)
 
