@@ -4,19 +4,33 @@ This a compilation of the most commonly used functions and tricks used frequentl
 ## Content
 * [Logical Functions](#Logical-Operation-Functions-"IF()")
   *s
+  
   *s
+  
   *ss
+  
   *
+  
   *ss
+  
   *
+  
   *s
+  
   *s
+  
   *s
+  
   *s
+  
   *s
+  
   *s
+  
   *s
+  
   *s
+  
   *s
   *s
   *s
