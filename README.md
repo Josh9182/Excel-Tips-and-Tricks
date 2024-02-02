@@ -4,7 +4,7 @@ This a compilation of the most commonly used functions and tricks used frequentl
 ## Content
 * [Logical Functions](#Logical-Operation-Functions-IF)
   * [Common Variations](#Common-IF-Variations)
-  * [Range](#Range)
+  * [Function Example](#Check-the-average-value-of-Money-Spent-Column-D-by-France-Column-&-Row-A8-using-the-AVERAGEIF-function)
 
 ## Logical Operation Functions "IF()"
 The "IF()" function is crucial in data analysis. It helps provide different outcomes based on whether a condition is true or false. You can use it alone or combine it for a more comprehensive examination. 
@@ -24,7 +24,7 @@ All these "IF()" functions follow the same structure. You set the range of cells
 
 In summary, "IF()" and its related functions are like a Swiss Army knife for data analysis, allowing you to precisely analyze and manipulate data based on conditions.
 
-### Check the Average value of (Money Spent) Column D by (France) Column/Row A8 using the "AVERAGEIF()" function
+### Check the average value of "Money Spent" Column D by "France" Column & Row A8 using the "AVERAGEIF()" function
 ```
 =AVERAGEIF(Range,Criteria, Average_range) -> =AVERAGEIF(A:A,A8,D:D)
 ```
