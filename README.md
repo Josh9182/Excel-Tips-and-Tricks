@@ -7,7 +7,9 @@ The "IF()" function is crucial in data analysis. It helps provide different outc
 There are various functions built around "IF()" that enhance its capabilities. Here are three important ones:
 
 **SUMIF():** Adds up values that meet a specific condition.
+
 **AVERAGEIF():** Calculates the average of values that meet a specific condition.
+
 **COUNTIF():** Counts the number of cells that meet a specifiec ondition.
 Usual Format:
 
