@@ -8,9 +8,12 @@ This a compilation of the most commonly used functions and tricks used frequentl
 * [Logical Functions "IFS"](#logical-operation-functions-IFS)
 
 ## Logical Operation Functions
-In Excel, logical functions such as "AND()," "OR()," "NOT()," and "IF()" are essential tools for data analysis. These functions operate on the basis of true or false conditions, enabling the creation of more advanced, selective functions through the use of merging. 
+In Excel, logical functions such as "AND()," "OR()," "NOT()," and "IF()" are essential tools for data analysis. These functions operate on the basis of true or false conditions, enabling the creation of more advanced, selective functions through the use of merging. Whether used independently or in combination, these functions facilitate a comprehensive examination of data. 
 
-These are pivotal in generating diverse outcomes based on the evaluation of conditions as either true or false. Whether used independently or in combination, these functions facilitate a comprehensive examination of data. Their simplicity allows for the creation of dynamic formulas, making them valuable for tasks ranging from decision-making to automated data analysis. 
+**Example of a merged logical operation function**
+```
+=IF(AND(
+```
 
 ### **Common "IF()" Variations**
 There are various functions built around "IF()" that enhance its capabilities. Here are three important ones:
