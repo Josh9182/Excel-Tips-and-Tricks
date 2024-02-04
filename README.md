@@ -2,13 +2,15 @@
 This a compilation of the most commonly used functions and tricks used frequently to make data analysis just a little bit easier!
 
 ## Content
-* [Logical Functions "IF"](#Logical-Operation-Functions-IF)
+* [Logical Functions](#Logical-Operation-Functions)
   * [Common Variations](#Common-IF-Variations)
   * [Function Example](#check-the-average-value-of-money-spent-column-d-by-france-column--row-a8-using-the-averageif-function)
 * [Logical Functions "IFS"](#logical-operation-functions-IFS)
 
-## Logical Operation Functions "IF()"
-The "IF()" function is crucial in data analysis. It helps provide different outcomes based on whether a condition is true or false. You can use it alone or combine it for a more comprehensive examination. 
+## Logical Operation Functions
+In Excel, logical functions such as "AND()," "OR()," "NOT()," and "IF()" are essential tools for data analysis. These functions operate on the basis of true or false conditions, enabling the creation of more advanced, selective functions through the use of merging. 
+
+These are pivotal in generating diverse outcomes based on the evaluation of conditions as either true or false. Whether used independently or in combination, these functions facilitate a comprehensive examination of data. Their simplicity allows for the creation of dynamic formulas, making them valuable for tasks ranging from decision-making to automated data analysis. 
 
 ### **Common "IF()" Variations**
 There are various functions built around "IF()" that enhance its capabilities. Here are three important ones:
@@ -42,3 +44,11 @@ Like the "IF()" function above, "IFS" allow the user to check more than 1 condit
 ```
 =MAXIFS(Max_range,Criteria_range1,Criteria1,...)
 ```
+
+**Max_range**: This is the set of cells that will be analyzed to determine the maximum value regarding the criteria(s) in the form of numerical data. In this case, Max_Range would be Column D, "Money Spent".
+
+**Criteria_range1+**: This is the condition that will help narrow down the selection to a specific column or columns. In this case the criteria_range would be Column A, "Country". 
+
+**Criteria1+**: This condition can be in the form of any criteria, whether it be a numerical, expression, or text value. The Criteria specifies which cells in the Criteria_range will be used to determine the maximum value. In this case the Criteria will be Column A8, "France".
+
+## 
