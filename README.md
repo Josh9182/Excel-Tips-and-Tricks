@@ -46,15 +46,15 @@ There are various functions built around "IF()" that enhance its capabilities. H
 ```
 **AVERAGEIF():** Calculates the average of values that meet a specific condition.
 ```
-=AVERAGEIF(Range,Criteria, Average_range) =AVERAGEIF(B:B,B2,D:D)
+=AVERAGEIF(Range,Criteria, Average_range) -> =AVERAGEIF(B:B,B2,D:D)
 ```
 **COUNTIF():** Counts the number of cells which hold either text or time that meet a specifiec condition.
 ```
-=COUNTIF(Range, Criteria) =COUNTIF(B:B,B2)
+=COUNTIF(Range, Criteria) -> =COUNTIF(B:B,B2)
 ```
-**IFERROR():** 
+**IFERROR():** Specifies a value or action to take place incase a formula / function spawns an error message.
 ```
-
+IFERROR(value, value_if_error) -> =IFERROR(A1/B1, "Cannot divide by 0" ) & =IFERROR()
 ```
 **IFNA():**
 ```
