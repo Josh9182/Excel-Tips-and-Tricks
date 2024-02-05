@@ -35,7 +35,6 @@ In Excel, logical functions such as "IF()", "AND()", "OR()", and "NOT()" are ess
 ```
 =IF(AND(A2 > A3, A4 > A2), "TRUE", "FALSE")
 ```
-
 ## **Common "IF()" Variations**
 There are various functions built around "IF()" that enhance its capabilities. Here are several important ones:
 
