@@ -2,11 +2,12 @@
 This a compilation of the most commonly used functions and tricks used frequently to make data analysis just a little bit easier!
 
 ## Content
-* [Logical Functions](#Logical-Operation-Functions)
+* [Logical Operation Functions](#Logical-Operation-Functions)
   * [Common Variations](#Common-IF-Variations)
   * [Function Example](#check-the-average-value-of-money-spent-column-d-by-france-column--row-a8-using-the-averageif-function)
-* [Logical Functions "IFS"](#logical-operation-functions-IFS)
+* [Logical Operation Functions "IFS"](#logical-operation-functions-IFS)
    * [Function Example](#check-the-maximum-value-of-money-spent-column-d-by-france-column--row-A8-using-the-MAXIFS-function)
+* [Advanced Logical Functions]()
 * [Lookup Functions](#Data-Lookup-Functions)
 
 ## Logical Operation Functions
