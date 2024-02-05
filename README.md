@@ -111,3 +111,7 @@ There are various logical functions used to evaluate data, these include:
 
 ## Data Lookup Functions
 
+## Text Manipulation Functions
+
+## Date and Time Functions 
+
