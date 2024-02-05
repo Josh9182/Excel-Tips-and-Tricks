@@ -11,7 +11,17 @@ This a compilation of the most commonly used functions and tricks used frequentl
 * [Lookup Functions](#Data-Lookup-Functions)
 
 ## Logical Operation Functions
-In Excel, logical functions such as "AND()," "OR()," "NOT()," and "IF()" are essential tools for data analysis. These functions operate on the basis of true or false conditions, enabling the creation of more advanced, selective functions through the use of merging. Whether used independently or in combination, these functions facilitate a comprehensive examination of data. 
+In Excel, logical functions such as "IF()", "AND()", "OR()", and "NOT()" are essential tools for data analysis. These functions operate on the basis of true or false conditions, enabling the creation of more advanced, selective functions through the use of merging. Whether used independently or in combination, these functions facilitate a comprehensive examination of data. 
+
+## Common Operation Functions
+
+**IF()**:
+
+**AND()**:
+
+**OR()**:
+
+**NOT()**:
 
 **Example of a merged logical operation function**
 ```
@@ -19,7 +29,7 @@ In Excel, logical functions such as "AND()," "OR()," "NOT()," and "IF()" are ess
 ```
 
 ## **Common "IF()" Variations**
-There are various functions built around "IF()" that enhance its capabilities. Here are three important ones:
+There are various functions built around "IF()" that enhance its capabilities. Here are several important ones:
 
 **SUMIF():** Adds up values that meet a specific condition.
 
@@ -27,6 +37,8 @@ There are various functions built around "IF()" that enhance its capabilities. H
 
 **COUNTIF():** Counts the number of cells that meet a specifiec ondition.
 Usual Format:
+
+**IFERROR()**: 
 
 All these "IF()" functions follow the same structure. You set the range of cells that will be used to generalize the criteria, followed by the more specific cells known as the criteria. Based on whether it's true or false, the function does something specific with the data.
 
@@ -64,9 +76,14 @@ All "IF()" functions can become "IFS()", such as "MAXIF()" -> "MAXIFS", "SUMIFS(
 
 ## Advanced Logical Functions
 
-While operation functions utilize data to return true or false values, logical functions instead work with data to return numerical or text data based on the functions evaluations.  
+While operation functions utilize data to return true or false values, logical functions instead work with data to return numerical or text values based on the functions evaluations.  
 
 ## Common Logical Functions
+There are various logical functions used to evaluate data, these include:
+
+**SWITCH()**:
+
+**CHOOSE()**:
 
 ## Data Lookup Functions
 
