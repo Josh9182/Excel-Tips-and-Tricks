@@ -11,6 +11,7 @@ This a compilation of the most commonly used functions and tricks I use frequent
   * [Common Operation Functions "IFS()"](#Common-IFS-Variations) 
       * [Using A Function To Solve A Problem](#check-the-maximum-value-of-money-spent-column-d-by-france-column--row-A8-using-the-MAXIFS-function)
 * [Advanced Logical Functions](#Advanced-Logical-Functions)
+  * [Common Logical Functions](#Common-Logical-Functions) 
 * [Lookup Functions](#Data-Lookup-Functions)
 
 ## Logical Operation Functions
