@@ -41,7 +41,7 @@ In summary, "IF()" and its related functions are like a Swiss Army knife for dat
 **Average_range**: This condition specifies the cells that need to be averaged. In the example, it's Column D, representing the "Money Spent" column.
 
 ## Logical Operation Functions "IFS()"
-Like the "IF()" function above, "IFS" allow the user to check more than 1 condition(s) of a formula with more detail. The number of "IFS()" conditions are limitless, as long as the criteria and range can coexist. In the example below the function "MAXIFS()" will be used. 
+Like the "IF()" function above, "IFS" allow the user to check 1 or more conditions of a formula with more detail. The number of "IFS()" conditions are limitless, as long as the criteria and range can coexist. In the example below the function "MAXIFS()" will be used. 
 
 ## **Common "IFS()" Variations**
 
