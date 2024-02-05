@@ -20,7 +20,9 @@ In Excel, logical functions such as "IF()", "AND()", "OR()", and "NOT()" are ess
 =IF(A1 < A2, "TRUE", "FALSE")
 ```
 **AND():** Evaluates if 1 or more conditions are true / false. 
-
+```
+=AND(A1 < A2, A2 > A3, "TRUE", "FALSE")
+```
 **OR():** Evaluates if 1 or more conditions are true / false. If any value statement is TRUE it will show TRUE, if all value statments are FALSE it will show FALSE.  
 
 **NOT():**
