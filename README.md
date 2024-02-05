@@ -48,17 +48,9 @@ There are various functions built around "IF()" that enhance its capabilities. H
 ```
 =AVERAGEIF(Range,Criteria, Average_range) =AVERAGEIF(B:B,B2,D:D)
 ```
-**COUNTIF():** Counts the number of cells that meet a specifiec ondition.
+**COUNTIF():** Counts the number of cells which hold either text or time that meet a specifiec condition.
 ```
-
-```
-**MINIF():** Locates and 
-```
-
-```
-**MAXIF():**
-```
-
+=COUNTIF(Range, Criteria) =COUNTIF(B:B,B2)
 ```
 **IFERROR():** 
 ```
@@ -89,8 +81,16 @@ Like the "IF()" function above, "IFS" allow the user to check 1 or more conditio
 
 Like the "IF()" function previously mentioned, there are various functions built around "IFS()" that can elevate their effectiveness. 
 
-All "IF()" functions can become "IFS()", such as "MAXIF()" -> "MAXIFS", "SUMIFS()" -> "SUMIFS()", and "COUNTIF()" -> "COUNTIFS()". The only difference would be that the "IFS()" functions have more conditions and can become far more successful at displaying the desired results. 
+All "IF()" functions can become "IFS()", such as "MAXIF()" -> "MAXIFS", "SUMIFS()" -> "SUMIFS()", and "COUNTIF()" -> "COUNTIFS()". While the majority of "IF()" functions can become an "IFS()" function, there are two exceptions:
 
+**MINIFS():** Returns the minimum value in a range of cells based on 1 or more criterias. 
+```
+=MINIFS()
+```
+**MAXIFS():** Returns the maximum value in a range of cells based on 1 or more criterias. 
+```
+=MAXIFS()
+```
 ### Check the maximum value of "Money Spent" Column D by "France" Column & Row A8 using the "MAXIFS()" function
 ```
 =MAXIFS(Max_range,Criteria_range1,Criteria1,...)
