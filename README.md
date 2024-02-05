@@ -3,6 +3,7 @@ This a compilation of the most commonly used functions and tricks I use frequent
 
 ## Content
 * [Logical Operation Functions](#Logical-Operation-Functions)
+ * [Common Operation Functions](#Common-Operation-Functions) 
   * [Common Variations](#Common-IF-Variations)
     * [Function Example](#check-the-average-value-of-money-spent-column-d-by-france-column--row-a8-using-the-averageif-function)
 * [Logical Operation Functions "IFS"](#logical-operation-functions-IFS)
