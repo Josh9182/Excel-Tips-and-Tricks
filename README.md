@@ -41,14 +41,29 @@ In Excel, logical functions such as "IF()", "AND()", "OR()", and "NOT()" are ess
 There are various functions built around "IF()" that enhance its capabilities. Here are several important ones:
 
 **SUMIF():** Adds up values that meet a specific condition.
+```
 
+```
 **AVERAGEIF():** Calculates the average of values that meet a specific condition.
+```
 
+```
 **COUNTIF():** Counts the number of cells that meet a specifiec ondition.
-Usual Format:
+```
 
+```
+**MINIF():** Locates and 
+```
+
+```
+**MAXIF():**
+```
+
+```
 **IFERROR():** 
+```
 
+```
 All these "IF()" functions follow the same structure. You set the range of cells that will be used to generalize the criteria, followed by the more specific cells known as the criteria. Based on whether it's true or false, the function does something specific with the data.
 
 In summary, "IF()" and its related functions are like a Swiss Army knife for data analysis, allowing you to precisely analyze and manipulate data based on conditions.
