@@ -15,7 +15,7 @@ In Excel, logical functions such as "AND()," "OR()," "NOT()," and "IF()" are ess
 =IF(AND(A2 > A3, A4 > A2), "TRUE", "FALSE")
 ```
 
-### **Common "IF()" Variations**
+## **Common "IF()" Variations**
 There are various functions built around "IF()" that enhance its capabilities. Here are three important ones:
 
 **SUMIF():** Adds up values that meet a specific condition.
