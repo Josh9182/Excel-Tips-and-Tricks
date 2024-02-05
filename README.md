@@ -32,7 +32,7 @@ In Excel, logical functions such as "IF()", "AND()", "OR()", and "NOT()" are ess
 =NOT(A3 > A2)
 ```
 
-**Example of a merged logical operation function**
+### **Example of a merged logical operation function**
 ```
 =IF(AND(A2 > A3, A4 > A2), "TRUE", "FALSE")
 ```
