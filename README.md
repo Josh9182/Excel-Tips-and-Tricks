@@ -12,7 +12,7 @@ In Excel, logical functions such as "AND()," "OR()," "NOT()," and "IF()" are ess
 
 **Example of a merged logical operation function**
 ```
-=IF(AND(
+=IF(AND(A2 > A3, A4 > A2), "TRUE", "FALSE")
 ```
 
 ### **Common "IF()" Variations**
