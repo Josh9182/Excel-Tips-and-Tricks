@@ -80,11 +80,11 @@ All "IF()" functions can become "IFS()", such as "MAXIF()" -> "MAXIFS", "SUMIFS(
 
 **MINIFS():** Returns the minimum value in a range of cells based on 1 or more criterias. 
 ```
-=MINIFS()
+=MINIFS(min_range,criteria_range1,criteria1...) -> =MINIFS(D:D,C:C,C1)
 ```
 **MAXIFS():** Returns the maximum value in a range of cells based on 1 or more criterias. 
 ```
-=MAXIFS()
+=MAXIFS(max_range,criteria_range1,criteria1...)() -> =MAXIFS(D:D,C:C,C1)
 ```
 ## Check the maximum value of "Money Spent" Column D by "France" Column & Row A8 using the "MAXIFS()" function
 ```
