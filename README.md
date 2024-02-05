@@ -84,7 +84,7 @@ All "IF()" functions can become "IFS()", such as "MAXIF()" -> "MAXIFS", "SUMIFS(
 ```
 **MAXIFS():** Returns the maximum value in a range of cells based on 1 or more criterias. 
 ```
-=MAXIFS(max_range,criteria_range1,criteria1...)() -> =MAXIFS(D:D,C:C,C1)
+=MAXIFS(max_range,criteria_range1,criteria1...) -> =MAXIFS(D:D,C:C,C1)
 ```
 ## Check the maximum value of "Money Spent" Column D by "France" Column & Row A8 using the "MAXIFS()" function
 ```
