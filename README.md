@@ -4,7 +4,7 @@ This a compilation of the most commonly used functions and tricks used frequentl
 ## Content
 * [Logical Operation Functions](#Logical-Operation-Functions)
   * [Common Variations](#Common-IF-Variations)
-   * [Function Example](#check-the-average-value-of-money-spent-column-d-by-france-column--row-a8-using-the-averageif-function)
+        * [Function Example](#check-the-average-value-of-money-spent-column-d-by-france-column--row-a8-using-the-averageif-function)
 * [Logical Operation Functions "IFS"](#logical-operation-functions-IFS)
   * [Function Example](#check-the-maximum-value-of-money-spent-column-d-by-france-column--row-A8-using-the-MAXIFS-function)
 * [Advanced Logical Functions](#Advanced-Logical-Functions)
