@@ -52,11 +52,7 @@ There are various functions built around "IF()" that enhance its capabilities. H
 ```
 **IFERROR():** Specifies a value or action to take place incase a formula / function spawns an error message.
 ```
-IFERROR(value, value_if_error) -> =IFERROR(A1/B1, "Cannot divide by 0" ) & =IFERROR()
-```
-**IFNA():**
-```
-
+=IFERROR(value, value_if_error) -> =IFERROR(A1/0, "Cannot divide by 0" ) & =IFERROR(IF(A1/0,"Correct","Incorrect"),"Unable to divide by 0")
 ```
 All these "IF()" functions follow the same structure. You set the range of cells that will be used to generalize the criteria, followed by the more specific cells known as the criteria. Based on whether it's true or false, the function does something specific with the data.
 
