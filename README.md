@@ -7,7 +7,7 @@ This a compilation of the most commonly used functions and tricks used frequentl
   * [Function Example](#check-the-average-value-of-money-spent-column-d-by-france-column--row-a8-using-the-averageif-function)
 * [Logical Operation Functions "IFS"](#logical-operation-functions-IFS)
    * [Function Example](#check-the-maximum-value-of-money-spent-column-d-by-france-column--row-A8-using-the-MAXIFS-function)
-* [Advanced Logical Functions]()
+* [Advanced Logical Functions](#Advanced-Logical-Functions)
 * [Lookup Functions](#Data-Lookup-Functions)
 
 ## Logical Operation Functions
@@ -61,6 +61,8 @@ All "IF()" functions can become "IFS()", such as "MAXIF()" -> "MAXIFS", "SUMIFS(
 **Criteria_range1+**: This is the condition that will help narrow down the selection to a specific column or columns. In this case the criteria_range would be Column A, "Country". 
 
 **Criteria1+**: This condition can be in the form of any criteria, whether it be a numerical, expression, or text value. The Criteria specifies which cells in the Criteria_range will be used to determine the maximum value. In this case the Criteria will be Column A8, "France".
+
+## Advanced Logical Functions
 
 ## Data Lookup Functions
 
