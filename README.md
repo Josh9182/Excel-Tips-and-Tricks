@@ -15,18 +15,22 @@ In Excel, logical functions such as "IF()", "AND()", "OR()", and "NOT()" are ess
 
 ## Common Operation Functions
 
-**IF():** Evaluates if 1 condition is true / false. 
+**IF():** Evaluates if 1 condition is true / false. Able to customize "TRUE" & "FALSE" statments to be any numerical or text value. 
 ```
 =IF(A1 < A2, "TRUE", "FALSE")
 ```
-**AND():** Evaluates if 1 or more conditions are true / false. 
+**AND():** Evaluates if 1 or more conditions are true / false. Able to customize "TRUE" & "FALSE" statments to be any numerical or text value. 
 ```
 =AND(A1 < A2, A2 > A3, "TRUE", "FALSE")
 ```
-**OR():** Evaluates if 1 or more conditions are true / false. If any value statement is TRUE it will show TRUE, if all value statments are FALSE it will show FALSE.  
-
-**NOT():**
-
+**OR():** Evaluates if 1 or more conditions are true / false. If any value statement is TRUE it will show TRUE, if all value statments are FALSE it will show FALSE.  Unable to customize "TRUE" & "FALSE" statments.  
+```
+=OR(A2 <> A3)
+````
+**NOT():** Evaluates if 1 condition is true / false, however results are reversed. Unable to customize "TRUE" & "FALSE" statments.
+```
+=NOT(A3 > A2)
+```
 **Example of a merged logical operation function**
 ```
 =IF(AND(A2 > A3, A4 > A2), "TRUE", "FALSE")
