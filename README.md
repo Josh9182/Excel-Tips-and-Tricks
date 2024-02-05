@@ -17,6 +17,10 @@ In Excel, logical functions such as "IF()", "AND()", "OR()", and "NOT()" are ess
 
 **IF():** Evaluates if 1 condition is true / false. 
 
+```
+=IF(A1 < A2, "TRUE", "FALSE")
+```
+
 **AND():** Evaluates if 1 or more conditions are true / false. 
 
 **OR():** Evaluates if 1 or more conditions are true / false. If any value statement is TRUE it will show TRUE, if all value statments are FALSE it will show FALSE.  
