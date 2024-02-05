@@ -32,7 +32,7 @@ In Excel, logical functions such as "IF()", "AND()", "OR()", and "NOT()" are ess
 =NOT(A3 > A2)
 ```
 
-### **Example of a merged logical operation function**
+## **Example of a merged logical operation function**
 ```
 =IF(AND(A2 > A3, A4 > A2), "TRUE", "FALSE")
 ```
@@ -64,7 +64,7 @@ All these "IF()" functions follow the same structure. You set the range of cells
 
 In summary, "IF()" and its related functions are like a Swiss Army knife for data analysis, allowing you to precisely analyze and manipulate data based on conditions.
 
-### Check the average value of "Money Spent" Column D by "France" Column & Row A8 using the "AVERAGEIF()" function
+## Check the average value of "Money Spent" Column D by "France" Column & Row A8 using the "AVERAGEIF()" function
 ```
 =AVERAGEIF(Range,Criteria, Average_range) -> =AVERAGEIF(A:A,A8,D:D)
 ```
@@ -91,7 +91,7 @@ All "IF()" functions can become "IFS()", such as "MAXIF()" -> "MAXIFS", "SUMIFS(
 ```
 =MAXIFS()
 ```
-### Check the maximum value of "Money Spent" Column D by "France" Column & Row A8 using the "MAXIFS()" function
+## Check the maximum value of "Money Spent" Column D by "France" Column & Row A8 using the "MAXIFS()" function
 ```
 =MAXIFS(Max_range,Criteria_range1,Criteria1,...)
 ```
