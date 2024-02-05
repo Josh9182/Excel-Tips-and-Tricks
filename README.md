@@ -1,5 +1,5 @@
 # Excel-Tips-and-Tricks
-This a compilation of the most commonly used functions and tricks used frequently to make data analysis just a little bit easier!
+This a compilation of the most commonly used functions and tricks I use frequently to make data analysis just a little bit easier!
 
 ## Content
 * [Logical Operation Functions](#Logical-Operation-Functions)
@@ -40,13 +40,13 @@ In Excel, logical functions such as "IF()", "AND()", "OR()", and "NOT()" are ess
 ## **Common "IF()" Variations**
 There are various functions built around "IF()" that enhance its capabilities. Here are several important ones:
 
-**SUMIF():** Adds up values that meet a specific condition.
+**SUMIF():** Adds up values that meet a specific condition. 
 ```
-
+=SUMIF(Range,Criteria, Sum_range) -> =SUMIF(B:B,B2, D:D)
 ```
 **AVERAGEIF():** Calculates the average of values that meet a specific condition.
 ```
-
+=AVERAGEIF(Range,Criteria, Average_range) =AVERAGEIF(B:B,B2,D:D)
 ```
 **COUNTIF():** Counts the number of cells that meet a specifiec ondition.
 ```
@@ -61,6 +61,10 @@ There are various functions built around "IF()" that enhance its capabilities. H
 
 ```
 **IFERROR():** 
+```
+
+```
+**IFNA():**
 ```
 
 ```
@@ -85,7 +89,7 @@ Like the "IF()" function above, "IFS" allow the user to check 1 or more conditio
 
 Like the "IF()" function previously mentioned, there are various functions built around "IFS()" that can elevate their effectiveness. 
 
-All "IF()" functions can become "IFS()", such as "MAXIF()" -> "MAXIFS", "SUMIFS()" -> "SUMIFS()", and "COUNTIF()" -> "COUNTIFS()". 
+All "IF()" functions can become "IFS()", such as "MAXIF()" -> "MAXIFS", "SUMIFS()" -> "SUMIFS()", and "COUNTIF()" -> "COUNTIFS()". The only difference would be that the "IFS()" functions have more conditions and can become far more successful at displaying the desired results. 
 
 ### Check the maximum value of "Money Spent" Column D by "France" Column & Row A8 using the "MAXIFS()" function
 ```
