@@ -64,5 +64,9 @@ All "IF()" functions can become "IFS()", such as "MAXIF()" -> "MAXIFS", "SUMIFS(
 
 ## Advanced Logical Functions
 
+While operation functions utilize data to return true or false values, logical functions instead work with data to return numerical or text data based on the functions evaluations.  
+
+## Common Logical Functions
+
 ## Data Lookup Functions
 
