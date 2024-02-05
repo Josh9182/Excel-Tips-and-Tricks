@@ -43,6 +43,12 @@ In summary, "IF()" and its related functions are like a Swiss Army knife for dat
 ## Logical Operation Functions "IFS()"
 Like the "IF()" function above, "IFS" allow the user to check more than 1 condition(s) of a formula with more detail. The number of "IFS()" conditions are limitless, as long as the criteria and range can coexist. In the example below the function "MAXIFS()" will be used. 
 
+## **Common "IFS()" Variations**
+
+Like the "IF()" function previously mentioned, there are various functions built around "IFS()" that can elevate their effectiveness. 
+
+All "IF()" functions can become "IFS()", such as "MAXIF()" -> "MAXIFS", "SUMIFS()" -> "SUMIFS()", and "COUNTIF()" -> "COUNTIFS()". 
+
 ### Check the maximum value of "Money Spent" Column D by "France" Column & Row A8 using the "MAXIFS()" function
 ```
 =MAXIFS(Max_range,Criteria_range1,Criteria1,...)
@@ -53,12 +59,6 @@ Like the "IF()" function above, "IFS" allow the user to check more than 1 condit
 **Criteria_range1+**: This is the condition that will help narrow down the selection to a specific column or columns. In this case the criteria_range would be Column A, "Country". 
 
 **Criteria1+**: This condition can be in the form of any criteria, whether it be a numerical, expression, or text value. The Criteria specifies which cells in the Criteria_range will be used to determine the maximum value. In this case the Criteria will be Column A8, "France".
-
-## **Common "IFS()" Variations**
-
-Like the "IF()" function previously mentioned, there are various functions built around "IFS()" that can elevate their effectiveness. 
-
-All "IF()" functions can become "IFS()", such as "MAXIF()" -> "MAXIFS", "SUMIFS()" -> "SUMIFS()", and "COUNTIF()" -> "COUNTIFS()". 
 
 ## Data Lookup Functions
 
