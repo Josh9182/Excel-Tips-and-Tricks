@@ -26,11 +26,12 @@ In Excel, logical functions such as "IF()", "AND()", "OR()", and "NOT()" are ess
 **OR():** Evaluates if 1 or more conditions are true / false. If any value statement is TRUE it will show TRUE, if all value statments are FALSE it will show FALSE.  Unable to customize "TRUE" & "FALSE" statments.  
 ```
 =OR(A2 <> A3)
-````
+```
 **NOT():** Evaluates if 1 condition is true / false, however results are reversed. Unable to customize "TRUE" & "FALSE" statments.
 ```
 =NOT(A3 > A2)
 ```
+
 **Example of a merged logical operation function**
 ```
 =IF(AND(A2 > A3, A4 > A2), "TRUE", "FALSE")
