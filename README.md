@@ -6,7 +6,7 @@ This a compilation of the most commonly used functions and tricks I use frequent
   * [Common Operation Functions](#Common-Operation-Functions)
       * [Merged Function Example](#Example-of-a-merged-logical-operation-function) 
       * [Common Variations](#Common-IF-Variations)
-      * [Using Function to Solve Problem](#check-the-average-value-of-money-spent-column-d-by-france-column--row-a8-using-the-averageif-function)
+      * [Solving Function Problem](#check-the-average-value-of-money-spent-column-d-by-france-column--row-a8-using-the-averageif-function)
 * [Logical Operation Functions "IFS"](#logical-operation-functions-IFS)
   * [Function Example](#check-the-maximum-value-of-money-spent-column-d-by-france-column--row-A8-using-the-MAXIFS-function)
 * [Advanced Logical Functions](#Advanced-Logical-Functions)
