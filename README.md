@@ -6,6 +6,7 @@ This a compilation of the most commonly used functions and tricks used frequentl
   * [Common Variations](#Common-IF-Variations)
   * [Function Example](#check-the-average-value-of-money-spent-column-d-by-france-column--row-a8-using-the-averageif-function)
 * [Logical Functions "IFS"](#logical-operation-functions-IFS)
+   * [Function Example](Check-the-maximum-value-of-Money-Spent-Column-D-by-France-Column--Row-A8-using-the-AVERAGEIF-function)
 
 ## Logical Operation Functions
 In Excel, logical functions such as "AND()," "OR()," "NOT()," and "IF()" are essential tools for data analysis. These functions operate on the basis of true or false conditions, enabling the creation of more advanced, selective functions through the use of merging. Whether used independently or in combination, these functions facilitate a comprehensive examination of data. 
@@ -54,4 +55,6 @@ Like the "IF()" function above, "IFS" allow the user to check more than 1 condit
 
 **Criteria1+**: This condition can be in the form of any criteria, whether it be a numerical, expression, or text value. The Criteria specifies which cells in the Criteria_range will be used to determine the maximum value. In this case the Criteria will be Column A8, "France".
 
-## 
+## Data Lookup Functions
+
+
