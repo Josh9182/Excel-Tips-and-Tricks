@@ -9,7 +9,7 @@ This a compilation of the most commonly used functions and tricks I use frequent
       * [Using A Function To Solve A Problem](#check-the-average-value-of-money-spent-column-d-by-france-column--row-a8-using-the-averageif-function)
 * [Logical Operation Functions "IFS()"](#logical-operation-functions-IFS)
   * [Common Operation Functions "IFS()"](#Common-IFS-Variations) 
-      * [Function Example](#check-the-maximum-value-of-money-spent-column-d-by-france-column--row-A8-using-the-MAXIFS-function)
+      * [Using A Function To Solve A Problem](#check-the-maximum-value-of-money-spent-column-d-by-france-column--row-A8-using-the-MAXIFS-function)
 * [Advanced Logical Functions](#Advanced-Logical-Functions)
 * [Lookup Functions](#Data-Lookup-Functions)
 
