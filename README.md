@@ -31,7 +31,7 @@ In Excel, logical functions such as "IF()", "AND()", "OR()", and "NOT()" are ess
 ```
 =OR(logical1,[logical2]...) -> =OR(A2 <> A3)
 ```
-**XOR():** Evaluates if 1 or more conditions are true / false. Returns "TRUE" if only an odd number of conditions are true, if an even number of conditions are true or both are false, it returns "FALSE".
+**XOR():** Evaluates if 1 or more conditions are true / false. Returns "TRUE" if only an odd number of conditions are true, if an even number of conditions are true or both are false, it returns "FALSE". Unable to customize "TRUE" & "FALSE" statments.  
 ```
 =XOR(logical1,[logical2]...) -> =XOR(A2 > A3, A3 = A4)
 ```
