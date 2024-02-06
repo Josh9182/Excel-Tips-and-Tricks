@@ -2,8 +2,8 @@
 This a compilation of the most commonly used functions and tricks I use frequently to make data analysis just a little bit easier!
 
 ## Content
-*[Arithmetic Functions](#Arithmetic-Functions)
-  *[Common Arithmetic Functions](#Common-Arithmetic-Functions)
+* [Arithmetic Functions](#Arithmetic-Functions)
+  * [Common Arithmetic Functions](#Common-Arithmetic-Functions)
 
 
 * [Logical Operation Functions](#Logical-Operation-Functions)
