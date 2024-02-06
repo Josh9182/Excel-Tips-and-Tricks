@@ -145,9 +145,6 @@ All "IF()" functions can become "IFS()", such as "MAXIF()" -> "MAXIFS", "SUMIFS(
 
 **Criteria1+:** This condition can be in the form of any criteria, whether it be a numerical, expression, or text value. The Criteria specifies which cells in the Criteria_range will be used to determine the maximum value. In this case the Criteria will be Column A8, "France".
 
-## Common Logical Functions
-There are various logical functions used to evaluate data, these include:
-
 ## Data Lookup Functions
 
 **SWITCH():** 
