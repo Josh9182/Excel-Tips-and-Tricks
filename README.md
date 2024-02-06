@@ -145,25 +145,57 @@ All "IF()" functions can become "IFS()", such as "MAXIF()" -> "MAXIFS", "SUMIFS(
 **Criteria1+:** This condition can be in the form of any criteria, whether it be a numerical, expression, or text value. The Criteria specifies which cells in the Criteria_range will be used to determine the maximum value. In this case the Criteria will be Column A8, "France".
 
 ## Data Lookup Functions
-Excel features several data lookup functions that allow you to search for specific values in a range or table and retrieve related information. Here are some commonly used data lookup functions in Excel:
+Excel features several data lookup functions that allow for the search of specific values in a range or table. Here are some commonly used data lookup functions in Excel:
 
 ## Common Lookup Functions
 
 **SWITCH():** 
+```
 
+```
 **CHOOSE():**
+```
 
-**INDEX():**
-
+```
 **MATCH():**
+```
 
+```
+**INDEX():**
+```
+
+```
+**OFFSET():**
+```
+
+```
 **=VLOOKUP():**
+```
 
+```
 **=HLOOKUP():**
+```
 
+```
 **XLOOKUP():**
+```
+
+```
+## Merged Function Examples
+
+**=INDEX(MATCH())**
+
+**=OFFSET(MATCH())**
 
 ## Text Manipulation Functions
+
+****
+
+****
+
+****
+
+****
 
 ## Date and Time Functions 
 
