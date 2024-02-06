@@ -54,9 +54,10 @@ Excel is constantly calculating, formulating, and operating by the use of functi
 ```
 =SUBTOTAL(function_num,ref1,[ref2],...) -> =SUBTOTAL(9,D:D)
 ```
-**Function_num:** 
+**Function_num:** This is the number that specifies what function would be used for the subtotal. In this function's case it would be 9, since in the list of functions 9 is the number associated with "SUM"
 
-**Ref1:**
+**Ref1:** This the range of cells that will be used to calculate the subtotal, anywhere from 1-254 references can be used. In the case of the prompt above, the "ref1" would be calculating all of Column D (Money Spent). 
+
 ## Logical Operation Functions
 Logical functions such as "IF()", "AND()", "OR()", and "NOT()" are essential tools for data analysis. These functions operate on the basis of true or false conditions, enabling the creation of more advanced, selective functions through the use of merging. Whether used independently or in combination, these functions facilitate a comprehensive examination of data. 
 
