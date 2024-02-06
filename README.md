@@ -12,10 +12,9 @@ This a compilation of the most commonly used functions, VBA, and Power Query tri
       * [Using A Function To Solve A Problem](#check-the-average-value-of-money-spent-column-d-by-france-column--row-a8-using-the-averageif-function)
 * [Logical Operation Functions "IFS()"](#logical-operation-functions-IFS)
   * [Common Operation Functions "IFS()"](#Common-IFS-Variations) 
-      * [Using A Function To Solve A Problem](#check-the-maximum-value-of-money-spent-column-d-by-france-column--row-A8-using-the-MAXIFS-function)
-* [Advanced Logical Functions](#Advanced-Logical-Functions)
-  * [Common Logical Functions](#Common-Logical-Functions) 
+      * [Using A Function To Solve A Problem](#check-the-maximum-value-of-money-spent-column-d-by-france-column--row-A8-using-the-MAXIFS-function) 
 * [Lookup Functions](#Data-Lookup-Functions)
+  *[Common Lookup Functions](#Common-Lookup-Functions) 
 
 ## Arithmetic Functions
 Excel is constantly calculating, formulating, and operating by the use of functions. All functions Excel has to offer use arithmetic to operate, whether it be counting the letters in a word or locating a desired cell. Arithmetic functions are the foundations of several logical functions mentioned below. Harnessing the power of arithmetic functions, Excel elevates the efficiency of data manipulation and analysis, making complex tasks more manageable.
@@ -59,7 +58,7 @@ Excel is constantly calculating, formulating, and operating by the use of functi
 **Ref1:** This the range of cells that will be used to calculate the subtotal, anywhere from 1-254 references can be used. In the case of the prompt above, the "ref1" would be calculating all of Column D (Money Spent). 
 
 ## Logical Operation Functions
-Logical functions such as "IF()", "AND()", "OR()", and "NOT()" are essential tools for data analysis. These functions operate on the basis of true or false conditions, enabling the creation of more advanced, selective functions through the use of merging. Whether used independently or in combination, these functions facilitate a comprehensive examination of data. 
+Excel hosts several logical functions such as "IF()", "AND()", "OR()", and "NOT()" which are essential tools for data analysis. These functions operate on the basis of true or false conditions, enabling the creation of more advanced, selective functions through the use of merging. Whether used independently or in combination, these functions facilitate a comprehensive examination of data. 
 
 ## Common Operation Functions:
 
@@ -146,6 +145,9 @@ All "IF()" functions can become "IFS()", such as "MAXIF()" -> "MAXIFS", "SUMIFS(
 **Criteria1+:** This condition can be in the form of any criteria, whether it be a numerical, expression, or text value. The Criteria specifies which cells in the Criteria_range will be used to determine the maximum value. In this case the Criteria will be Column A8, "France".
 
 ## Data Lookup Functions
+Excel features several data lookup functions that allow you to search for specific values in a range or table and retrieve related information. Here are some commonly used data lookup functions in Excel:
+
+## Common Lookup Functions
 
 **SWITCH():** 
 
