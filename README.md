@@ -59,8 +59,6 @@ Excel is constantly calculating, formulating, and operating by the use of functi
 **Function_num:** 
 
 **Ref1:**
-
-
 ## Logical Operation Functions
 Logical functions such as "IF()", "AND()", "OR()", and "NOT()" are essential tools for data analysis. These functions operate on the basis of true or false conditions, enabling the creation of more advanced, selective functions through the use of merging. Whether used independently or in combination, these functions facilitate a comprehensive examination of data. 
 
