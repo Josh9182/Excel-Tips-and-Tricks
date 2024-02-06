@@ -36,19 +36,19 @@ Excel is constantly calculating, formulating, and operating by the use of functi
 ```
 **=MIN():** Returns the **smallest** number from a range of cells, whether it be select cells, rows, or columns. 
 ```
-
+=MIN(number1,[number2],...) -> =MIN(D1,A:A)
 ```
 **=MAX():** Returns the **largest** number from a range of cells, whether it be select cells, rows, or columns. 
 ```
-
+=MAX(number1,[number2],...) -> =MAX(E1,C5:C9)
 ```
-**=SUBTOTAL():**
+**=SUBTOTAL():** Calculates the subtotal of a range of cells, whether it be select cells, rows, or columns. The subtotal function can choose whether to calculate the min,max,sum,average, product, and many more by the use of selective numbers, (1-9, 10,11,101-111). Using the subtotal function you can calculate a range and **exclude** other subtotals in the range as well as ignoring hidden rows depending on your programmed "function_num". 
 ```
-
+=SUBTOTAL(function_num,ref1,[ref2],...) -> =SUBTOTAL(9,D1,D3)
 ```
-**AGGREGATE():**
+**AGGREGATE():** Calculates the aggregate calculation of choice from the same choice range as "=SUBTOTAL()" for a range of cells, rows, or columns. Additionally, the "=AGGREGATE()" function allows the ability for "options". This condition allows the "AGGREGATE()" function to ignore certain rows or values depending on the choice range (1-7) that is picked. 
 ```
-
+=AGGREGATE(function_num,options,ref1,[ref2],...) -> =AGGREGATE(1, 6, A2:A10)
 ```
 ## Find the subtotal (SUM) amount of "Money Spent" Column D using the "SUBTOTAL()" function
 ```
