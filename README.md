@@ -14,10 +14,15 @@ This a compilation of the most commonly used functions and tricks I use frequent
   * [Common Logical Functions](#Common-Logical-Functions) 
 * [Lookup Functions](#Data-Lookup-Functions)
 
+## Arithmetic Functions
+Excel is constantly calculating, formulating, and operating by the use of functions. All functions Excel has to offer uses arithmetic to operate, whether it be counting the letters in a word or locating a desired cell. Arithmetic functions are the foundations of several logical functions mentioned below. Harnessing the power of arithmetic functions, Excel elevates the efficiency of data manipulation and analysis, making complex tasks more manageable.
+
+## Common Arithmetic Functions 
+
 ## Logical Operation Functions
 In Excel, logical functions such as "IF()", "AND()", "OR()", and "NOT()" are essential tools for data analysis. These functions operate on the basis of true or false conditions, enabling the creation of more advanced, selective functions through the use of merging. Whether used independently or in combination, these functions facilitate a comprehensive examination of data. 
 
-## Common Operation Functions
+## Common Operation Functions:
 
 **IF():** Evaluates if 1 condition is true / false. Able to customize "TRUE" & "FALSE" statments to be any numerical or text value. 
 ```
@@ -44,7 +49,7 @@ In Excel, logical functions such as "IF()", "AND()", "OR()", and "NOT()" are ess
 =IF(AND(A2 > A3, A4 > A2), "TRUE", "FALSE")
 ```
 ## **Common "IF()" Variations**
-There are various functions built around "IF()" that enhance its capabilities. Here are several important ones:
+There are various functions built around "IF()" that enhance their capabilities. Here are several important ones:
 
 **SUMIF():** Adds up values that meet a specific condition. 
 ```
@@ -95,19 +100,17 @@ All "IF()" functions can become "IFS()", such as "MAXIF()" -> "MAXIFS", "SUMIFS(
 ```
 =MAXIFS(Max_range,Criteria_range1,Criteria1,...) -> =MAXIFS(D:D,A:A,A8)
 ```
-
 **Max_range:** This is the set of cells that will be analyzed to determine the maximum value regarding the criteria(s) in the form of numerical data. In this case, Max_Range would be Column D, "Money Spent".
 
 **Criteria_range1+:** This is the condition that will help narrow down the selection to a specific column or columns. In this case the criteria_range would be Column A, "Country". 
 
 **Criteria1+:** This condition can be in the form of any criteria, whether it be a numerical, expression, or text value. The Criteria specifies which cells in the Criteria_range will be used to determine the maximum value. In this case the Criteria will be Column A8, "France".
 
-## Advanced Logical Functions
-
-While operation functions utilize data to return true or false values, logical functions instead work with data to return numerical or text values based on the functions evaluations.  
-
 ## Common Logical Functions
 There are various logical functions used to evaluate data, these include:
+While operation functions utilize data to return true or false values, logical functions instead work with data to return numerical or text values based on the functions evaluations.  
+
+## Data Lookup Functions
 
 **SWITCH():** 
 
@@ -117,7 +120,11 @@ There are various logical functions used to evaluate data, these include:
 
 **MATCH():**
 
-## Data Lookup Functions
+**=VLOOKUP():**
+
+**=HLOOKUP():**
+
+**XLOOKUP():**
 
 ## Text Manipulation Functions
 
