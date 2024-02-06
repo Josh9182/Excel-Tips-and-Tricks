@@ -30,15 +30,15 @@ Excel is constantly calculating, formulating, and operating by the use of functi
 ```
 =AVERAGE(number1,[number2],...) -> =AVERAGE(D:D,I:I)
 ```
-**=PRODUCT():**
+**=PRODUCT():** Multiplies a range of cells, whether it be select cells, rows, or columns. 
+```
+=PRODUCT(number1,[number2],...) -> =PRODUCT(D3, B:B)
+```
+**=MIN():** Returns the **smallest** number from a range of cells, whether it be select cells, rows, or columns. 
 ```
 
 ```
-**=MIN():**
-```
-
-```
-**=MAX():**
+**=MAX():** Returns the **largest** number from a range of cells, whether it be select cells, rows, or columns. 
 ```
 
 ```
