@@ -22,13 +22,13 @@ Excel is constantly calculating, formulating, and operating by the use of functi
 
 ## Common Arithmetic Functions 
 
-**=SUM():**
+**=SUM():** Adds every number in a range of cells, whether it be select cells, rows, or columns. 
 ```
-
+=SUM(number1,[number2],...) -> =SUM(D:D,I:I) or =SUM(D2,I3)
 ```
-**=AVERAGE():**
+**=AVERAGE():** Calculates the average in a range of cells, whether it be select cells, rows, or columns. 
 ```
-
+=AVERAGE(number1,[number2],...) -> =AVERAGE(D:D,I:I)
 ```
 **=PRODUCT():**
 ```
