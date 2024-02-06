@@ -4,6 +4,7 @@ This a compilation of the most commonly used functions and tricks I use frequent
 ## Content
 * [Arithmetic Functions](#Arithmetic-Functions)
   * [Common Arithmetic Functions](#Common-Arithmetic-Functions)
+      * 
 
 
 * [Logical Operation Functions](#Logical-Operation-Functions)
@@ -19,12 +20,49 @@ This a compilation of the most commonly used functions and tricks I use frequent
 * [Lookup Functions](#Data-Lookup-Functions)
 
 ## Arithmetic Functions
-Excel is constantly calculating, formulating, and operating by the use of functions. All functions Excel has to offer uses arithmetic to operate, whether it be counting the letters in a word or locating a desired cell. Arithmetic functions are the foundations of several logical functions mentioned below. Harnessing the power of arithmetic functions, Excel elevates the efficiency of data manipulation and analysis, making complex tasks more manageable.
+Excel is constantly calculating, formulating, and operating by the use of functions. All functions Excel has to offer use arithmetic to operate, whether it be counting the letters in a word or locating a desired cell. Arithmetic functions are the foundations of several logical functions mentioned below. Harnessing the power of arithmetic functions, Excel elevates the efficiency of data manipulation and analysis, making complex tasks more manageable.
 
 ## Common Arithmetic Functions 
 
+**=SUM():**
+```
+
+```
+**=AVERAGE():**
+```
+
+```
+**=PRODUCT():**
+```
+
+```
+**=MIN():**
+```
+
+```
+**=MAX():**
+```
+
+```
+**=SUBTOTAL():**
+```
+
+```
+**AGGREGATE():**
+```
+
+```
+## Find the subtotal (SUM) amount of "Money Spent" Column D using the "SUBTOTAL()" function
+```
+=SUBTOTAL(function_num,ref1,[ref2],...) -> =SUBTOTAL(9,D:D)
+```
+**Function_num:** 
+
+**Ref1:**
+
+
 ## Logical Operation Functions
-In Excel, logical functions such as "IF()", "AND()", "OR()", and "NOT()" are essential tools for data analysis. These functions operate on the basis of true or false conditions, enabling the creation of more advanced, selective functions through the use of merging. Whether used independently or in combination, these functions facilitate a comprehensive examination of data. 
+Logical functions such as "IF()", "AND()", "OR()", and "NOT()" are essential tools for data analysis. These functions operate on the basis of true or false conditions, enabling the creation of more advanced, selective functions through the use of merging. Whether used independently or in combination, these functions facilitate a comprehensive examination of data. 
 
 ## Common Operation Functions:
 
@@ -34,15 +72,15 @@ In Excel, logical functions such as "IF()", "AND()", "OR()", and "NOT()" are ess
 ```
 **AND():** Evaluates if 1 or more conditions are true / false. Unable to customize "TRUE" & "FALSE" statments. 
 ```
-=AND(logical1,[logical2]...) -> =AND(A1 < A2, A2 > A3)
+=AND(logical1,[logical2],...) -> =AND(A1 < A2, A2 > A3)
 ```
 **OR():** Evaluates if 1 or more conditions are true / false. If any value statement is TRUE it will show TRUE, if all value statments are FALSE it will show FALSE. Unable to customize "TRUE" & "FALSE" statments.  
 ```
-=OR(logical1,[logical2]...) -> =OR(A2 <> A3)
+=OR(logical1,[logical2],...) -> =OR(A2 <> A3)
 ```
 **XOR():** Evaluates if 1 or more conditions are true / false. Returns "TRUE" if only an odd number of conditions are true, if an even number of conditions are true or both are false, it returns "FALSE". Unable to customize "TRUE" & "FALSE" statments.  
 ```
-=XOR(logical1,[logical2]...) -> =XOR(A2 > A3, A3 = A4)
+=XOR(logical1,[logical2],...) -> =XOR(A2 > A3, A3 = A4)
 ```
 **NOT():** Evaluates if 1 condition is true / false, however results are reversed. Unable to customize "TRUE" & "FALSE" statments.
 ```
@@ -94,11 +132,11 @@ All "IF()" functions can become "IFS()", such as "MAXIF()" -> "MAXIFS", "SUMIFS(
 
 **MINIFS():** Returns the minimum value in a range of cells based on 1 or more criterias. 
 ```
-=MINIFS(min_range,criteria_range1,criteria1...) -> =MINIFS(D:D,C:C,C1)
+=MINIFS(min_range,criteria_range1,criteria1,...) -> =MINIFS(D:D,C:C,C1)
 ```
 **MAXIFS():** Returns the maximum value in a range of cells based on 1 or more criterias. 
 ```
-=MAXIFS(max_range,criteria_range1,criteria1...) -> =MAXIFS(D:D,C:C,C1)
+=MAXIFS(max_range,criteria_range1,criteria1,...) -> =MAXIFS(D:D,C:C,C1)
 ```
 ## Check the maximum value of "Money Spent" Column D by "France" Column & Row A8 using the "MAXIFS()" function
 ```
@@ -112,7 +150,6 @@ All "IF()" functions can become "IFS()", such as "MAXIF()" -> "MAXIFS", "SUMIFS(
 
 ## Common Logical Functions
 There are various logical functions used to evaluate data, these include:
-While operation functions utilize data to return true or false values, logical functions instead work with data to return numerical or text values based on the functions evaluations.  
 
 ## Data Lookup Functions
 
