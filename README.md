@@ -31,6 +31,10 @@ In Excel, logical functions such as "IF()", "AND()", "OR()", and "NOT()" are ess
 ```
 =OR(logical1,[logical2]...) -> =OR(A2 <> A3)
 ```
+**XOR():** Evaluates if 1 or more conditions are true / false. Returns "TRUE" if only an odd number of conditions are true, if an even number of conditions are true or both are false, it returns "FALSE".
+```
+=XOR(logical1,[logical2]...) -> =XOR(A2 > A3, A3 = A4)
+```
 **NOT():** Evaluates if 1 condition is true / false, however results are reversed. Unable to customize "TRUE" & "FALSE" statments.
 ```
 =NOT(logical) -> =NOT(A3 > A2)
@@ -89,7 +93,7 @@ All "IF()" functions can become "IFS()", such as "MAXIF()" -> "MAXIFS", "SUMIFS(
 ```
 ## Check the maximum value of "Money Spent" Column D by "France" Column & Row A8 using the "MAXIFS()" function
 ```
-=MAXIFS(Max_range,Criteria_range1,Criteria1,...)
+=MAXIFS(Max_range,Criteria_range1,Criteria1,...) -> =MAXIFS(D:D,A:A,A8)
 ```
 
 **Max_range:** This is the set of cells that will be analyzed to determine the maximum value regarding the criteria(s) in the form of numerical data. In this case, Max_Range would be Column D, "Money Spent".
@@ -105,9 +109,13 @@ While operation functions utilize data to return true or false values, logical f
 ## Common Logical Functions
 There are various logical functions used to evaluate data, these include:
 
-**SWITCH()**:
+**SWITCH():** 
 
-**CHOOSE()**:
+**CHOOSE():**
+
+**INDEX():**
+
+**MATCH():**
 
 ## Data Lookup Functions
 
