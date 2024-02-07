@@ -63,35 +63,34 @@ Excel hosts several logical functions such as "IF()", "AND()", "OR()", and "NOT(
 ## Statistical Functions
 Excel presents several statistical functions which provide tools for data analysis, allowing the user to summarize, calculate, and interpret data. Here are various examples that streamline the data analysis process:
 
-**AVERAGE():**
+**AVERAGE():** Returns the average value in a range of cells as long as the cells contain numbers. 
 ```
 =AVERAGE(number1,[number2],...) -> =AVERAGE(B2:B10)
 ```
-**AVERAGEA():**
+**AVERAGEA():** Returns the average value in a range of cells. Numbers are evaluated as their numerical value, however the function also evaluates text as set values. Text and "FALSE" data = 0. "TRUE" = 1. 
 ```
 =AVERAGEA(value1,[value2],...) -> =AVERAGE(A2:A10)
 ```
-**COUNT():**
+**COUNT():** Counts the number of cells in a range that contain numbers. 
 ```
 =COUNT(value1,[value2],...) -> =COUNT(E2:20)
 ```
-**COUNTA():**
+**COUNTA():** Counts the number of cells in a range that contain any values, whether it be text or numerical data. 
 ```
-=COUNTA(value1,[value2],...) -> =COUNTA()
+=COUNTA(value1,[value2],...) -> =COUNTA(A2:A20)
 ```
-**COUNTBLANK():**
+**COUNTBLANK():** Counts the number of empty cells in a range. 
 ```
-
+=COUNTBLANK(range) -> =COUNTBLANK(A1:E25)
 ```
 **LARGE():**
 ```
-
+=LARGE(array,k) -> =LARGE(E2:E25,1)
 ```
 **SMALL():**
 ```
-
+=SMALL(array,k) -> =SMALL(E2:E25,1)
 ```
-
 ## **Example of merged logical operation functions**
 
 ## **Find the largest number in "Money Spent" (Column D) without using a MIN, MAX, or LARGE function**
