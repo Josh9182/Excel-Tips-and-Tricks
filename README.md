@@ -205,13 +205,13 @@ Excel features several data lookup functions that allow for the search of specif
 
 ## Common Lookup Functions
 
-**SWITCH():** 
-```
-
-```
 **CHOOSE():**
 ```
-
+=CHOOSE(index_num,value1,[value2],...) -> =CHOOSE(A29,10,A30,12)
+```
+**SWITCH():** 
+```
+=SWITCH(expression,value1,result1,[value2], [result2]) -> =SWITCH(B32,"Red",10%,B33,"Green",15%)
 ```
 **MATCH():**
 ```
