@@ -93,12 +93,25 @@ Excel presents several statistical functions which provide tools for data analys
 ```
 ## **Example of merged logical operation functions**
 
+**=SMALL(array,k) + =COUNT(value1,[value2])**: Shows the largest value of the range. \
+```
+=SMALL(E:E,COUNT(E:E))
+```
+**=LARGE(array,k) + =COUNT(value1,[value2])**: Shows the smallest value of the range. 
+```
+=LARGE(E:E,COUNT(E:E))
+```
 ## **Find the largest number in "Money Spent" (Column D) without using a MIN, MAX, or LARGE function**
+```
+=SMALL(array,k) + =COUNT(value1,[value2]) -> =SMALL(D:D,COUNT(D:D))
+```
+**Array:** This is the range of numerical data that will be used to determine the (k)-th smallest value. In the case of this example, the data we are trying to use is Column D, "Money Spent". 
 
+**K:** This is the position from the smallest value in the array that will be returned. 1 = smallest value.  10 = 10th smallest value. In this case, the (k) value would be the function "=COUNT()". "=COUNT()" will find the number of values in the select range.    
 
+**Value1:** This is the range of cells we would like to be calculated. In this example the "value1" is "Money Spent" (Column D), totaling 23 values. When plugged together, The "SMALL()" function will now look at Column D, and with the results from "COUNT()" find the 23rd smallest value, which in this case would be the largest. 
 
-
-
+While we can do the "LARGE()" function and obtain the same answer, the ability to have options allows excel to be an extremely versatile and fantastic resource for data analysis. 
 
 ## Common Operation Functions:
 
