@@ -93,7 +93,7 @@ Excel presents several statistical functions which provide tools for data analys
 ```
 ## **Example of merged logical operation functions**
 
-**=SMALL(array,k) + =COUNT(value1,[value2])**: Shows the largest value of the range. \
+**=SMALL(array,k) + =COUNT(value1,[value2])**: Shows the largest value of the range. 
 ```
 =SMALL(E:E,COUNT(E:E))
 ```
