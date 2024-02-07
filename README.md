@@ -5,6 +5,9 @@ This a compilation of the most commonly used functions, VBA, and Power Query tri
 * [Arithmetic Functions](#Arithmetic-Functions)
   * [Common Arithmetic Functions](#Common-Arithmetic-Functions)
       * [Using A Function To Solve A Problem](#Find-the-subtotal-SUM-amount-of-Money-Spent-Column-D-using-the-SUBTOTAL-function)
+* [Statistical Functions](#Statistical-Functions)
+  * [Merged Function Example](#Example-of-merged-logical-operation-functions)
+      * [Using A Function To Solve A Problem](#Find-the-largest-number-in-Money-Spent-Column-D-without-using-a-MIN-MAX-or-LARGE-function)
 * [Logical Operation Functions](#Logical-Operation-Functions)
   * [Common Operation Functions](#Common-Operation-Functions)
       * [Merged Function Example](#Example-of-a-merged-logical-operation-function) 
@@ -56,9 +59,6 @@ Excel is constantly calculating, formulating, and operating by the use of functi
 **Function_num:** This is the number that specifies what function would be used for the subtotal. In this function's case it would be 9, since in the list of functions 9 is the number associated with "SUM"
 
 **Ref1:** This the range of cells that will be used to calculate the subtotal, anywhere from 1-254 references can be used. In the case of the prompt above, the "ref1" would be calculating all of Column D (Money Spent). 
-
-## Logical Operation Functions
-Excel hosts several logical functions such as "IF()", "AND()", "OR()", and "NOT()" which are essential tools for data analysis. These functions operate on the basis of true or false conditions, enabling the creation of more advanced, selective functions through the use of merging. Whether used independently or in combination, these functions facilitate a comprehensive examination of data. 
 
 ## Statistical Functions
 Excel presents several statistical functions which provide tools for data analysis, allowing the user to summarize, calculate, and interpret data. Here are various examples that streamline the data analysis process:
@@ -112,6 +112,9 @@ Excel presents several statistical functions which provide tools for data analys
 **Value1:** This is the range of cells we would like to be calculated. In this example the "value1" is "Money Spent" (Column D), totaling 23 values. When plugged together, The "SMALL()" function will now look at Column D, and with the results from "COUNT()" find the 23rd smallest value, which in this case would be the largest. 
 
 While we can do the "LARGE()" function and obtain the same answer, the ability to have options allows excel to be an extremely versatile and fantastic resource for data analysis. 
+
+## Logical Operation Functions
+Excel hosts several logical functions such as "IF()", "AND()", "OR()", and "NOT()" which are essential tools for data analysis. These functions operate on the basis of true or false conditions, enabling the creation of more advanced, selective functions through the use of merging. Whether used independently or in combination, these functions facilitate a comprehensive examination of data. 
 
 ## Common Operation Functions:
 
