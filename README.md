@@ -60,6 +60,47 @@ Excel is constantly calculating, formulating, and operating by the use of functi
 ## Logical Operation Functions
 Excel hosts several logical functions such as "IF()", "AND()", "OR()", and "NOT()" which are essential tools for data analysis. These functions operate on the basis of true or false conditions, enabling the creation of more advanced, selective functions through the use of merging. Whether used independently or in combination, these functions facilitate a comprehensive examination of data. 
 
+## Statistical Functions
+Excel presents several statistical functions which provide tools for data analysis, allowing the user to summarize, calculate, and interpret data. Here are various examples that streamline the data analysis process:
+
+**AVERAGE():**
+```
+=AVERAGE(number1,[number2],...) -> =AVERAGE(B2:B10)
+```
+**AVERAGEA():**
+```
+=AVERAGEA(value1,[value2],...) -> =AVERAGE(A2:A10)
+```
+**COUNT():**
+```
+=COUNT(value1,[value2],...) -> =COUNT(E2:20)
+```
+**COUNTA():**
+```
+=COUNTA(value1,[value2],...) -> =COUNTA()
+```
+**COUNTBLANK():**
+```
+
+```
+**LARGE():**
+```
+
+```
+**SMALL():**
+```
+
+```
+
+## **Example of merged logical operation functions**
+
+## **Find the largest number in "Money Spent" (Column D) without using a MIN, MAX, or LARGE function**
+
+
+
+
+
+
 ## Common Operation Functions:
 
 **IF():** Evaluates if 1 condition is true / false. Able to customize "TRUE" & "FALSE" statments to be any numerical or text value. 
@@ -181,6 +222,10 @@ Excel features several data lookup functions that allow for the search of specif
 ```
 
 ```
+**TRANSPOSE():**
+```
+
+```
 ## Merged Function Examples
 
 **=INDEX(MATCH())**
@@ -189,7 +234,7 @@ Excel features several data lookup functions that allow for the search of specif
 
 ## Text Manipulation Functions
 
-****
+**CONCAT():**
 
 ****
 
