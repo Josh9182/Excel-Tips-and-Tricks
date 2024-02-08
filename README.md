@@ -280,11 +280,37 @@ In this case, the "match_type" for this problem is going to be 0 or -1. Both opt
 
 ## Text Manipulation Functions
 
+**CHAR():**
+
+**CLEAN():**
+
 **CONCAT():**
 
-****
+**EXACT():**
 
-****
+**FIND():**
+
+**FIXED():**
+
+**LEFT():**
+
+**RIGHT():**
+
+**MID():**
+
+**LEN():**
+
+**LOWER():**
+
+**MID():**
+
+**PROPER():**
+
+**REPLACE()**
+
+**SUBSTITUTE():**
+
+**REPT**
 
 ****
 
