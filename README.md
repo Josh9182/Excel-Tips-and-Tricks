@@ -205,7 +205,7 @@ Excel features several data lookup functions that allow for the search of specif
 
 ## Common Lookup Functions
 
-**CHOOSE():**
+**CHOOSE():** 
 ```
 =CHOOSE(index_num,value1,[value2],...) -> =CHOOSE(A29,10,A30,12)
 ```
@@ -215,31 +215,31 @@ Excel features several data lookup functions that allow for the search of specif
 ```
 **MATCH():**
 ```
-
+=MATCH(lookup_value, lookup_array,[match_type]) -> =MATCH("Josh" or A2,A:A, 0)
 ```
 **INDEX():**
 ```
-
+=INDEX(array,row_number,[column_num]) -> =INDEX(A:B,2,1)
 ```
 **OFFSET():**
 ```
-
+=OFFSET(reference,rows,cols,[height],[width]) -> =OFFSET(A2,0,1)
 ```
 **=VLOOKUP():**
 ```
-
+=VLOOKUP(lookup_value,table_array,col_index_num,[range_lookup]) -> =VLOOKUP(A2,Table6,FALSE)
 ```
 **=HLOOKUP():**
 ```
-
+=HLOOKUP(lookup_value,table_array,row_index_num,[range_lookup]) -> =HLOOKUP(D2,Table6,3,FALSE)
 ```
 **XLOOKUP():**
 ```
-
+=XLOOKUP(search_key,lookup_range,result_range,[missing_value],[match_mode],[search_mode]) -> =XLOOKUP(A3,A:A,B:B,[Value Not Found])
 ```
 **TRANSPOSE():**
 ```
-
+=TRANSPOSE(array) -> =TRANSPOSE(Table6)
 ```
 ## Merged Function Examples
 
