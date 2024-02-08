@@ -17,7 +17,9 @@ This a compilation of the most commonly used functions, VBA, and Power Query tri
   * [Common Operation Functions "IFS()"](#Common-IFS-Variations) 
       * [Using A Function To Solve A Problem](#check-the-maximum-value-of-money-spent-column-d-by-france-column--row-A8-using-the-MAXIFS-function) 
 * [Lookup Functions](#Data-Lookup-Functions)
-  * [Common Lookup Functions](#Common-Lookup-Functions) 
+  * [Common Lookup Functions](#Common-Lookup-Functions)
+      * [Merged Function Example](#Merged-Function-Examples)
+      * [Using A Function To Solve A Problem](#Find-what-city-in-City-Column-B-is-next-to-Canada-in-the-Country-Column-without-using-VLOOKUP-HLOOKUP-or-XLOOKUP-function)
 
 ## Arithmetic Functions
 Excel is constantly calculating, formulating, and operating by the use of functions. All functions Excel has to offer use arithmetic to operate, whether it be counting the letters in a word or locating a desired cell. Arithmetic functions are the foundations of several logical functions mentioned below. Harnessing the power of arithmetic functions, Excel elevates the efficiency of data manipulation and analysis, making complex tasks more manageable.
@@ -252,7 +254,7 @@ Excel features several data lookup functions that allow for the search of specif
 ```
 =OFFSET(A2,MATCH(B2,B:B,0),1)
 ```
-## Find what city in "City" Column B is next to "Canada" in the "Country" Column without using "VLOOKUP()", "HLOOKUP()", OR "XLOOKUP()" function.
+## Find what city in "City" Column B is next to "Canada" in the "Country" Column without using "VLOOKUP()", "HLOOKUP()", or "XLOOKUP()" function.
 ```
 =INDEX(array,row_number,[column_num]) + =MATCH(lookup_value, lookup_array,[match_type]) -> =INDEX(B:B,MATCH(A2,A:A,FALSE),1) 
 ```
