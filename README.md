@@ -269,7 +269,9 @@ Excel features several data lookup functions that allow for the search of specif
 **Match_type:** This is the number indicating how specific of a result you would like to return. 1,0,-1. 
 
 1 = Less Than Exact
+
 0 = Exact Match
+
 -1 = Greater Than Exact
 
 In this case, the "match_type" for this problem is going to be 0 or "Exact Match" as to get exactly the result desired, we want the exact match.
