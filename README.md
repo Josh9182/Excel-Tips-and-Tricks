@@ -274,7 +274,7 @@ Excel features several data lookup functions that allow for the search of specif
 
 -1 = Greater Than Exact
 
-In this case, the "match_type" for this problem is going to be 0 or "Exact Match" as to get exactly the result desired, we want the exact match.
+In this case, the "match_type" for this problem is going to be 0 or -1. Both options would be satisfactory. In general 0 is the primary choice as in most scenarios in order to find exactly what you want, you will pick the "exact match" button.  
 
 ## Text Manipulation Functions
 
