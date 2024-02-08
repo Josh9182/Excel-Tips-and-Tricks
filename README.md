@@ -139,7 +139,7 @@ Excel hosts several logical functions such as "IF()", "AND()", "OR()", and "NOT(
 =NOT(logical) -> =NOT(A3 > A2)
 ```
 ## **Example of a merged logical operation function**
-**=IF(logical_test,[value_if_true],[value_if_false]) + =AND(logical1,[logical2],...)**
+**=IF(logical_test,[value_if_true],[value_if_false]) + =AND(logical1,[logical2],...):** Returns the value "TRUE" or "FALSE" depending on the logical question asked, in this case "A2 > A3, A4 > A2". 
 ```
 =IF(AND(A2 > A3, A4 > A2), "TRUE", "FALSE")
 ```
@@ -244,12 +244,14 @@ Excel features several data lookup functions that allow for the search of specif
 ```
 ## Merged Function Examples
 
-**=INDEX(array,row_number,[column_num]) + =MATCH(lookup_value, lookup_array,[match_type]):**
+**=INDEX(array,row_number,[column_num]) + =MATCH(lookup_value, lookup_array,[match_type]):** Uses a value from the leftmost column of a table, and locates the desired value based off multiple conditions.
 ```
 =INDEX(B:B,MATCH(A2,A:A,FALSE)) 
 ```
-**=OFFSET(MATCH())**
-
+**=OFFSET(reference,rows,cols,[height],[width]) + =MATCH(lookup_value, lookup_array,[match_type]):** Uses a value from the topmost row of a table, and returns the desired value based off multiple conditions. 
+```
+=OFFSET(A2,MATCH(B2,B:B,0),1)
+```
 ## Text Manipulation Functions
 
 **CONCAT():**
