@@ -139,6 +139,7 @@ Excel hosts several logical functions such as "IF()", "AND()", "OR()", and "NOT(
 =NOT(logical) -> =NOT(A3 > A2)
 ```
 ## **Example of a merged logical operation function**
+**=IF(logical_test,[value_if_true],[value_if_false]) + =AND(logical1,[logical2],...)**
 ```
 =IF(AND(A2 > A3, A4 > A2), "TRUE", "FALSE")
 ```
@@ -205,46 +206,48 @@ Excel features several data lookup functions that allow for the search of specif
 
 ## Common Lookup Functions
 
-**CHOOSE():** 
+**CHOOSE():** Based upon a value (index_num), returns select values based upon conditions.
 ```
-=CHOOSE(index_num,value1,[value2],...) -> =CHOOSE(A29,10,A30,12)
+=CHOOSE(index_num,value1,[value2],...) -> =CHOOSE(A29,"Purple","Blue","Red")
 ```
-**SWITCH():** 
+**SWITCH():** Based upon a value (expression), returns select values based upon multiple, more specific conditions.
 ```
 =SWITCH(expression,value1,result1,[value2], [result2]) -> =SWITCH(B32,"Red",10%,B33,"Green",15%)
 ```
-**MATCH():**
+**MATCH():** Returns the row position of an item determined by certain criteria. 
 ```
 =MATCH(lookup_value, lookup_array,[match_type]) -> =MATCH("Josh" or A2,A:A, 0)
 ```
-**INDEX():**
+**INDEX():** Returns a value in a given range based off a particular row and column. 
 ```
 =INDEX(array,row_number,[column_num]) -> =INDEX(A:B,2,1)
 ```
-**OFFSET():**
+**OFFSET():** Returns a value in a given range based off a given reference as well as row and column number. 
 ```
 =OFFSET(reference,rows,cols,[height],[width]) -> =OFFSET(A2,0,1)
 ```
-**=VLOOKUP():**
+**=VLOOKUP():** Uses a value from the leftmost column of a table, and locates the desired value based off multiple conditions. 
 ```
 =VLOOKUP(lookup_value,table_array,col_index_num,[range_lookup]) -> =VLOOKUP(A2,Table6,FALSE)
 ```
-**=HLOOKUP():**
+**=HLOOKUP():** Uses a value from the topmost row of a table, and returns the desired value based off multiple conditions. 
 ```
 =HLOOKUP(lookup_value,table_array,row_index_num,[range_lookup]) -> =HLOOKUP(D2,Table6,3,FALSE)
 ```
-**XLOOKUP():**
+**XLOOKUP():** Uses a value, no matter the location, and returns a value/values from a table by using multiple conditions. 
 ```
 =XLOOKUP(search_key,lookup_range,result_range,[missing_value],[match_mode],[search_mode]) -> =XLOOKUP(A3,A:A,B:B,[Value Not Found])
 ```
-**TRANSPOSE():**
+**TRANSPOSE():** Converts a vertical range of cells to a horizontal range, or vice versa.
 ```
 =TRANSPOSE(array) -> =TRANSPOSE(Table6)
 ```
 ## Merged Function Examples
 
-**=INDEX(MATCH())**
-
+**=INDEX(array,row_number,[column_num]) + =MATCH(lookup_value, lookup_array,[match_type]):**
+```
+=INDEX(B:B,MATCH(A2,A:A,FALSE)) 
+```
 **=OFFSET(MATCH())**
 
 ## Text Manipulation Functions
