@@ -252,6 +252,28 @@ Excel features several data lookup functions that allow for the search of specif
 ```
 =OFFSET(A2,MATCH(B2,B:B,0),1)
 ```
+## Find what city in "City" Column B is next to "Canada" in the "Country" Column without using "VLOOKUP()", "HLOOKUP()", OR "XLOOKUP()" function.
+```
+=INDEX(array,row_number,[column_num]) + =MATCH(lookup_value, lookup_array,[match_type]) -> =INDEX(B:B,MATCH(A2,A:A,FALSE),1) 
+```
+**Array:** This is the range of cells that you would like the end value to be found in. In the case of this example, it will be Column B (B:B) as that is where the value Toronto, from "City" Column B will be. 
+
+**Row_number:** This is the row from the "array" that will be used to return a value. In the case of this example, the "MATCH()" function is used to locate the row number for this function. In order to show results from "row_num" the "column_num" must be implemented. In general, "MATCH()" is used to locate a desired value's row number so implementing into "INDEX()" allows for a fantastic combination.  
+
+**Column_num:** This selects a column from the "array" that will be used to return the desired value. In order to show results from "column_num" the "row_num" must be implemented. In this example, since Column B (B:B) is already implemented as the desired column, the column_num will be 1 as it is 1 more column than A2, the value that match is using to find the row number. 
+
+**Lookup_value:** This is the value used to find the desired value in the array. It can be any value whether it be numerical, text, or logical. In this example the "lookup_value" is A2 as it is the value next to the desired value, the city parallel from "Canada", B2. 
+
+**Lookup_array:** This is the range of cells that contain the "lookup_value". In this case this would be Column A (A:A), as it is the "Country" column which hosts "Canada", A2. 
+
+**Match_type:** This is the number indicating how specific of a result you would like to return. 1,0,-1. 
+
+1 = Less Than Exact
+0 = Exact Match
+-1 = Greater Than Exact
+
+In this case, the "match_type" for this problem is going to be 0 or "Exact Match" as to get exactly the result desired, we want the exact match.
+
 ## Text Manipulation Functions
 
 **CONCAT():**
