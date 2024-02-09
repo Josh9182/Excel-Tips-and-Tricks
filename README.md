@@ -93,7 +93,7 @@ Excel presents several statistical functions which provide tools for data analys
 ```
 **LAMBDA():** Allows for the creation of a custom function. 
 ```
-=LAMBDA() -> =LAMBDA()
+=LAMBDA(parameter_or_calculation,[parameter_or_calculation]) -> =LAMBDA()
 ```
 **LET():** Assigns a name value to a range, text, or number value and allows for the creation of formatted functions. 
 ```
