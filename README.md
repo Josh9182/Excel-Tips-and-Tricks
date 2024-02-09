@@ -10,8 +10,8 @@ This a compilation of the most commonly used functions, VBA, and Power Query tri
       * [Using A Function To Solve A Problem](#Find-the-largest-number-in-Money-Spent-Column-D-without-using-a-MIN-MAX-or-LARGE-function)
 ### Logical Operation Functions
   * [Common Operation Functions](#Common-Operation-Functions)
-      * [Merged Function Example](#Example-of-a-merged-logical-operation-function) 
-      * [Common "IF()" Variations](#Common-IF-Variations)
+      * [Merged Function Example](#Example-of-a-merged-logical-operation-function)
+### Common "IF()" Variations
       * [Using A Function To Solve A Problem](#check-the-average-value-of-money-spent-column-d-by-france-column--row-a8-using-the-averageif-function)     
 ### Logical Operation Functions "IFS()"
   * [Common Operation Functions "IFS()"](#Common-IFS-Variations) 
