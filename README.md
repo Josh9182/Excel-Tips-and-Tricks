@@ -20,6 +20,9 @@ This a compilation of the most commonly used functions, VBA, and Power Query tri
   * [Common Lookup Functions](#Common-Lookup-Functions)
       * [Merged Function Example](#Merged-Function-Examples)
       * [Using A Function To Solve A Problem](#Find-what-city-in-City-Column-B-is-next-to-Canada-in-the-Country-Column-without-using-VLOOKUP-HLOOKUP-or-XLOOKUP-function)
+### Text Manipulation Functions
+  * [Common Text Functions](#Common-Text-Functions)
+      *  
 
 
 ## Arithmetic Functions
@@ -91,6 +94,10 @@ Excel presents several statistical functions which provide tools for data analys
 ```
 =LARGE(array,k) -> =LARGE(E2:E25,1)
 ```
+**SMALL():** Returns the (k)-th smallest value in the range. (k) is used to show the position from the smallest value, if for example the (k) value is "1" then the data that would be shown would be the 1st smallest value of the data set.   
+```
+=SMALL(array,k) -> =SMALL(E2:E25,1)
+```
 **LAMBDA():** Allows for the creation of a custom function. 
 ```
 =LAMBDA(parameter_or_calculation,[parameter_or_calculation]) -> =LAMBDA(boxes_ordered,boxes_ordered*5)(A14)
@@ -98,10 +105,6 @@ Excel presents several statistical functions which provide tools for data analys
 **LET():** Assigns a name value to a range, text, or number value and allows for the creation of formatted functions. 
 ```
 =LET(name1,value_expression1,[name2],[value_expression2],formula_expression) -> =LET(data,A2:C10,name,A2:A10,occupation,B2:B10,salary,C2:C10,FILTER(data,(occupation = B2))))
-```
-**SMALL():** Returns the (k)-th smallest value in the range. (k) is used to show the position from the smallest value, if for example the (k) value is "1" then the data that would be shown would be the 1st smallest value of the data set.   
-```
-=SMALL(array,k) -> =SMALL(E2:E25,1)
 ```
 ## **Example of merged logical operation functions**
 
@@ -289,6 +292,9 @@ Excel features several data lookup functions that allow for the search of specif
 In this case, the "match_type" for this problem is going to be 0 or -1. Both options would be satisfactory. In general 0 is the primary choice as in most scenarios in order to find exactly what you want, you will pick the "exact match" button.  
 
 ## Text Manipulation Functions
+Excel offers several powerful text functions that allow you to manipulate, format, and extract information from text strings. Here are some commonly used text functions in Excel:
+
+## Common Text Functions
 
 **CHAR():** Rteurns a character based on a specified code number from the PC
 ```
@@ -314,49 +320,50 @@ In this case, the "match_type" for this problem is going to be 0 or -1. Both opt
 ```
 =FIXED(number,[decimals],[no_commas]) -> =FIXED(333,333,333.00,,TRUE) = 333333333.00
 ```
-**LEFT():**
+**LEFT():** Returns the number of characters from the start of the **left** side of the text string based off the number chosen. 
+```
+=LEFT(text, [num_chars]) -> =LEFT(B25,5) = Birmi
+```
+**RIGHT():** Returns the number of characters from the start of the **right** side of the text string based off the number chosen. 
+```
+=RIGHT(text, [num_chars]) -> =RIGHT(B25,5) = ngham
+```
+**MID():** Returns the number of characters from the start of the **middle** side of the text string based off the number chosen.
+```
+=MID(text, start_num,num_chars) -> =MID(B25,5) = mingh
+```
+**LEN():** Returns the number of characters in a text string
+```
+=LEN(text) -> =LEN(A25) = 10
+```
+**LOWER():** Converts all letters in a text string to **lowercase**.
+```
+=LOWER(text) -> =LOWER(A25) = birmingham
+```
+**UPPER():** Converts all letters in a text string to **uppercase**.
+```
+=UPPER(text) -> =UPPER(A25) = BIRMINGHAM
+```
+**PROPER():** Capatilizes the first letter of the text values selected. 
+```
+=PROPER(text) -> =PROPER(A25) = Birmingham
+```
+**REPLACE():** Replaces part of a text string with a different text string.
+```
+=REPLACE(old_text,start_num,num_chars,new_text): =REPLACE(B25,1,10,"Paris") 
+```
+**SUBSTITUTE():** Replaces a text string with a different text string.
+```
+=SUBSTITUTE(text,old_text,new_text,[instance_num]) = SUSBSITUTE("Birmingham",A25,"Ottawa")
+```
+**REPT():** Repeats a given text a given number of times.
+```
+=REPT(text,number_times) -> =REPT("Hello ", 5) = "Hi Hi Hi Hi Hi"
+```
+**TRIM():** Removes all spaces from a text string except for single spaces between words. 
+```
+=TRIM(text) -> =TRIM(A25)
 ```
 
-```
-**RIGHT():**
-```
-
-```
-**MID():**
-```
-
-```
-**LEN():**
-```
-
-```
-**LOWER():**
-```
-
-```
-**UPPER():**
-```
-
-```
-**PROPER():**
-```
-
-```
-**REPLACE()**
-```
-
-```
-**SUBSTITUTE():**
-```
-
-```
-**REPT():**
-```
-
-```
-**TRIM():**
-```
-
-```
 ## Date and Time Functions 
 
