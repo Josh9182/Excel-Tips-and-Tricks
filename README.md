@@ -106,7 +106,8 @@ Excel presents several statistical functions which provide tools for data analys
 ```
 =LET(name1,value_expression1,[name2],[value_expression2],formula_expression) -> =LET(data,A2:C10,name,A2:A10,occupation,B2:B10,salary,C2:C10,FILTER(data,(occupation = B2))))
 ```
-## **Example of merged logical operation functions**
+
+## **Example of merged statistical functions**
 
 **=SMALL(array,k) + =COUNT(value1,[value2])**: Shows the largest value of the range. 
 ```
@@ -116,6 +117,11 @@ Excel presents several statistical functions which provide tools for data analys
 ```
 =LARGE(E:E,COUNT(E:E))
 ```
+**=LAMBDA(parameter_or_calculation,[parameter_or_calculation]) + =IF(logical_test,[value_if_true],[value_if_false]):** Checks if a number is greater than the value "10".
+```
+=LAMBDA(x, IF(x > 10, "Greater than 10", "Not greater than 10"))(B1)
+```
+
 ## **Find the largest number in "Money Spent" (Column D) without using a MIN, MAX, or LARGE function**
 ```
 =SMALL(array,k) + =COUNT(value1,[value2]) -> =SMALL(D:D,COUNT(D:D))
@@ -364,6 +370,7 @@ Excel offers several powerful text functions that allow you to manipulate, forma
 ```
 =TRIM(text) -> =TRIM(A25)
 ```
+## 
 
 ## Date and Time Functions 
 
