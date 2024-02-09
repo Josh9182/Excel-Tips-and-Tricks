@@ -11,7 +11,7 @@ This a compilation of the most commonly used functions, VBA, and Power Query tri
 ### Logical Operation Functions
   * [Common Operation Functions](#Common-Operation-Functions)
       * [Merged Function Example](#Example-of-a-merged-logical-operation-function)
-### Common "IF()" Variations
+      * [Common "IF()" Variations](#Common-IFS-Variations)
       * [Using A Function To Solve A Problem](#check-the-average-value-of-money-spent-column-d-by-france-column--row-a8-using-the-averageif-function)     
 ### Logical Operation Functions "IFS()"
   * [Common Operation Functions "IFS()"](#Common-IFS-Variations) 
