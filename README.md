@@ -91,6 +91,14 @@ Excel presents several statistical functions which provide tools for data analys
 ```
 =LARGE(array,k) -> =LARGE(E2:E25,1)
 ```
+**LAMBDA():**
+```
+=LAMBDA() -> =LAMBDA()
+```
+**LET():**
+```
+=LET() -> =LET()
+```
 **SMALL():** Returns the (k)-th smallest value in the range. (k) is used to show the position from the smallest value, if for example the (k) value is "1" then the data that would be shown would be the 1st smallest value of the data set.   
 ```
 =SMALL(array,k) -> =SMALL(E2:E25,1)
