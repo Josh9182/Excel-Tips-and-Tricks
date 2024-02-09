@@ -290,6 +290,8 @@ In this case, the "match_type" for this problem is going to be 0 or -1. Both opt
 
 **EXACT():**
 
+**FILTER():**
+
 **FIND():**
 
 **FIXED():**
