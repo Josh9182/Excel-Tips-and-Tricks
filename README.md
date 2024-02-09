@@ -12,13 +12,11 @@ This a compilation of the most commonly used functions, VBA, and Power Query tri
   * [Common Operation Functions](#Common-Operation-Functions)
       * [Merged Function Example](#Example-of-a-merged-logical-operation-function) 
       * [Common "IF()" Variations](#Common-IF-Variations)
-      * [Using A Function To Solve A Problem](#check-the-average-value-of-money-spent-column-d-by-france-column--row-a8-using-the-averageif-function)
-       
-* ### [Logical Operation Functions "IFS()"](#logical-operation-functions-IFS)
+      * [Using A Function To Solve A Problem](#check-the-average-value-of-money-spent-column-d-by-france-column--row-a8-using-the-averageif-function)     
+* [Logical Operation Functions "IFS()"](#logical-operation-functions-IFS)
   * [Common Operation Functions "IFS()"](#Common-IFS-Variations) 
-      * [Using A Function To Solve A Problem](#check-the-maximum-value-of-money-spent-column-d-by-france-column--row-A8-using-the-MAXIFS-function)
-        
-* ### [Lookup Functions](#Data-Lookup-Functions)
+      * [Using A Function To Solve A Problem](#check-the-maximum-value-of-money-spent-column-d-by-france-column--row-A8-using-the-MAXIFS-function) 
+* [Lookup Functions](#Data-Lookup-Functions)
   * [Common Lookup Functions](#Common-Lookup-Functions)
       * [Merged Function Example](#Merged-Function-Examples)
       * [Using A Function To Solve A Problem](#Find-what-city-in-City-Column-B-is-next-to-Canada-in-the-Country-Column-without-using-VLOOKUP-HLOOKUP-or-XLOOKUP-function)
