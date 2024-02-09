@@ -5,17 +5,21 @@ This a compilation of the most commonly used functions, VBA, and Power Query tri
 * ### [Arithmetic Functions](#Arithmetic-Functions)
   * [Common Arithmetic Functions](#Common-Arithmetic-Functions)
       * [Using A Function To Solve A Problem](#Find-the-subtotal-SUM-amount-of-Money-Spent-Column-D-using-the-SUBTOTAL-function)
+        
 * ### [Statistical Functions](#Statistical-Functions)
   * [Merged Function Example](#Example-of-merged-logical-operation-functions)
       * [Using A Function To Solve A Problem](#Find-the-largest-number-in-Money-Spent-Column-D-without-using-a-MIN-MAX-or-LARGE-function)
+   
 * ### [Logical Operation Functions](#Logical-Operation-Functions)
   * [Common Operation Functions](#Common-Operation-Functions)
       * [Merged Function Example](#Example-of-a-merged-logical-operation-function) 
       * [Common "IF()" Variations](#Common-IF-Variations)
       * [Using A Function To Solve A Problem](#check-the-average-value-of-money-spent-column-d-by-france-column--row-a8-using-the-averageif-function)
+       
 * ### [Logical Operation Functions "IFS()"](#logical-operation-functions-IFS)
   * [Common Operation Functions "IFS()"](#Common-IFS-Variations) 
       * [Using A Function To Solve A Problem](#check-the-maximum-value-of-money-spent-column-d-by-france-column--row-A8-using-the-MAXIFS-function)
+        
 * ### [Lookup Functions](#Data-Lookup-Functions)
   * [Common Lookup Functions](#Common-Lookup-Functions)
       * [Merged Function Example](#Merged-Function-Examples)
