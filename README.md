@@ -302,33 +302,61 @@ In this case, the "match_type" for this problem is going to be 0 or -1. Both opt
 ```
 =EXACT(text1,text2) -> =EXACT(B24,B32) = TRUE
 ```
-**FILTER():**
+**FILTER():** Filters a range based off provided conditions.
 ```
-
+=FILTER(range,condition1,[condition2],...) -> =FILTER(A2:25,E2:E25 > 10)
 ```
-**FIND():**
-
-**FIXED():**
-
+**FIND():** Returns the starting position of one text string within another. 
+```
+=FIND(find_text,within_text,start,[start_num]) -> =FIND("Bi",B25) = Birmingham (1)
+```
+**FIXED():** Rounds a number to a specificed number of decimals and returns the result as a text value.
+```
+=FIXED(number,[decimals],[no_commas]) -> =FIXED(333,333,333.00,,TRUE) = 333333333.00
+```
 **LEFT():**
+```
 
+```
 **RIGHT():**
+```
 
+```
 **MID():**
+```
 
+```
 **LEN():**
+```
 
+```
 **LOWER():**
+```
 
+```
+**UPPER():**
+```
+
+```
 **PROPER():**
+```
 
+```
 **REPLACE()**
+```
 
+```
 **SUBSTITUTE():**
+```
 
-**REPT**
+```
+**REPT():**
+```
 
-****
+```
+**TRIM():**
+```
 
+```
 ## Date and Time Functions 
 
