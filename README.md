@@ -93,7 +93,7 @@ Excel presents several statistical functions which provide tools for data analys
 ```
 **LAMBDA():** Allows for the creation of a custom function. 
 ```
-=LAMBDA(parameter_or_calculation,[parameter_or_calculation]) -> =LAMBDA()
+=LAMBDA(parameter_or_calculation,[parameter_or_calculation]) -> =LAMBDA(boxes_ordered,boxes_ordered*5)(A14)
 ```
 **LET():** Assigns a name value to a range, text, or number value and allows for the creation of formatted functions. 
 ```
@@ -290,16 +290,22 @@ In this case, the "match_type" for this problem is going to be 0 or -1. Both opt
 
 ## Text Manipulation Functions
 
-**CHAR():**
-
-**CLEAN():**
-
-**CONCAT():**
-
-**EXACT():**
-
+**CHAR():** Rteurns a character based on a specified code number from the PC
+```
+=CHAR(Number) -> =CHAR(43) = "+"
+```
+**CONCAT():** Combines a range of selected cells or values from several cells into one cell. 
+```
+=CONCAT(text1,text2,[text3],...) -> =CONCAT(B15,", ",B16) = Tokyo, Japan
+```
+**EXACT():** Returns "TRUE" or "FALSE" based on whether two text strings are exactly the same. 
+```
+=EXACT(text1,text2) -> =EXACT(B24,B32) = TRUE
+```
 **FILTER():**
+```
 
+```
 **FIND():**
 
 **FIXED():**
