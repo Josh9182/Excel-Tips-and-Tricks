@@ -5,7 +5,7 @@ This a compilation of the most commonly used functions, VBA, and Power Query tri
 ### [Arithmetic Functions](#Arithmetic-Functions)
   * [Common Arithmetic Functions](#Common-Arithmetic-Functions)
       * [Using A Function To Solve A Problem](#Find-the-subtotal-SUM-amount-of-Money-Spent-Column-D-using-the-SUBTOTAL-function)
-* [Statistical Functions](#Statistical-Functions)
+### [Statistical Functions](#Statistical-Functions)
   * [Merged Function Example](#Example-of-merged-logical-operation-functions)
       * [Using A Function To Solve A Problem](#Find-the-largest-number-in-Money-Spent-Column-D-without-using-a-MIN-MAX-or-LARGE-function)
 * [Logical Operation Functions](#Logical-Operation-Functions)
