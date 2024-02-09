@@ -8,7 +8,7 @@ This a compilation of the most commonly used functions, VBA, and Power Query tri
 ### Statistical Functions
   * [Merged Function Example](#Example-of-merged-logical-operation-functions)
       * [Using A Function To Solve A Problem](#Find-the-largest-number-in-Money-Spent-Column-D-without-using-a-MIN-MAX-or-LARGE-function)
-* [Logical Operation Functions](#Logical-Operation-Functions)
+### Logical Operation Functions
   * [Common Operation Functions](#Common-Operation-Functions)
       * [Merged Function Example](#Example-of-a-merged-logical-operation-function) 
       * [Common "IF()" Variations](#Common-IF-Variations)
