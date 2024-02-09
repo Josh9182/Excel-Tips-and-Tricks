@@ -91,13 +91,13 @@ Excel presents several statistical functions which provide tools for data analys
 ```
 =LARGE(array,k) -> =LARGE(E2:E25,1)
 ```
-**LAMBDA():**
+**LAMBDA():** Allows for the creation of a custom function. 
 ```
 =LAMBDA() -> =LAMBDA()
 ```
-**LET():**
+**LET():** Assigns a name value to a range, text, or number value and allows for the creation of formatted functions. 
 ```
-=LET() -> =LET()
+=LET(name1,value_expression1,[name2],[value_expression2],formula_expression) -> =LET(data,A2:C10,name,A2:A10,occupation,B2:B10,salary,C2:C10,FILTER(data,(occupation = B2))))
 ```
 **SMALL():** Returns the (k)-th smallest value in the range. (k) is used to show the position from the smallest value, if for example the (k) value is "1" then the data that would be shown would be the 1st smallest value of the data set.   
 ```
