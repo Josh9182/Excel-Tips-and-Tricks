@@ -272,6 +272,10 @@ Excel features several data lookup functions that allow for the search of specif
 ```
 =OFFSET(A2,MATCH(B2,B:B,0),1)
 ```
+**=IFERROR(value, value_if_error) + =VLOOKUP(lookup_value,table_array,col_index_num,[range_lookup]):** Search for data and replace an "#N/A" error message with desired message. 
+```
+=IFERROR(VLOOKUP("Canada", A2:E25, 1, FALSE), "Value Not Found")
+```
 ## Find what city in "City" Column B is next to "Canada" in the "Country" Column without using "VLOOKUP()", "HLOOKUP()", or "XLOOKUP()" function.
 ```
 =INDEX(array,row_number,[column_num]) + =MATCH(lookup_value, lookup_array,[match_type]) -> =INDEX(B:B,MATCH(A2,A:A,FALSE),1) 
@@ -369,6 +373,5 @@ Excel offers several powerful text functions that allow you to manipulate, forma
 ```
 =TRIM(text) -> =TRIM(A25)
 ```
-
 
 
