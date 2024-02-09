@@ -1,7 +1,7 @@
 # Excel-Tips-and-Tricks
 This a compilation of the most commonly used functions, VBA, and Power Query tricks I use frequently to make data analysis just a little bit easier!
 
-## Content
+## Function Content
 * [Arithmetic Functions](#Arithmetic-Functions)
   * [Common Arithmetic Functions](#Common-Arithmetic-Functions)
       * [Using A Function To Solve A Problem](#Find-the-subtotal-SUM-amount-of-Money-Spent-Column-D-using-the-SUBTOTAL-function)
