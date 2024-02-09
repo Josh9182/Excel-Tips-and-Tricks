@@ -22,7 +22,6 @@ This a compilation of the most commonly used functions, VBA, and Power Query tri
       * [Using A Function To Solve A Problem](#Find-what-city-in-City-Column-B-is-next-to-Canada-in-the-Country-Column-without-using-VLOOKUP-HLOOKUP-or-XLOOKUP-function)
 ### Text Manipulation Functions
   * [Common Text Functions](#Common-Text-Functions)
-      *  
 
 
 ## Arithmetic Functions
@@ -370,7 +369,6 @@ Excel offers several powerful text functions that allow you to manipulate, forma
 ```
 =TRIM(text) -> =TRIM(A25)
 ```
-## 
 
-## Date and Time Functions 
+
 
