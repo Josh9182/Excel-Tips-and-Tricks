@@ -374,6 +374,7 @@ Excel offers several powerful text functions that allow you to manipulate, forma
 ```
 =TRIM(text) -> =TRIM(A25)
 ```
+
 ## The stakeholder of your project is requesting the "First Name" Column A and "Last Name" Column B to be combined into one column with a comma seperating the names. Show the stakeholder how to combine these two columns seamlessly by the use of a function.
 ```
 =CONCAT(text1,text2,[text3],...) -> =CONCAT(A1,", ",B1)
