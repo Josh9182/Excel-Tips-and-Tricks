@@ -373,6 +373,3 @@ Excel offers several powerful text functions that allow you to manipulate, forma
 ```
 =TRIM(text) -> =TRIM(A25)
 ```
-Booby|Booty|Leg|Flobbity|
------+-----+---+--------+
-   29|   38|YES|NO      |
