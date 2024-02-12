@@ -22,6 +22,7 @@ This a compilation of the most commonly used functions and tricks I use frequent
       * [Using A Function To Solve A Problem](#Find-what-city-in-City-Column-B-is-next-to-Canada-in-the-Country-Column-without-using-VLOOKUP-HLOOKUP-or-XLOOKUP-function)
 ### Text Manipulation Functions
   * [Common Text Functions](#Common-Text-Functions)
+      *[Using A Function To Solve A Problem](#The-stakeholder-of-your-project-is-requesting-the-First-Name-Column-A-and-Last-Name-Column-B-to-be-combined-into-one-column-with-a-comma-separating-the-names-Show-the-stakeholder-how-to-combine-these-two-columns-seamlessly-by-the-use-of-a-function) 
 
 
 ## Arithmetic Functions
