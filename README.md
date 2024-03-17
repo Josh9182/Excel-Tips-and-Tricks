@@ -26,6 +26,7 @@ This is a compilation of the most commonly used functions and tricks I use frequ
 
 
 ## Arithmetic Functions
+
 ## [Home](#This-is-a-compilation-of-the-most-commonly-used-functions-and-tricks-I-use-frequently-to-make-data-analysis-just-a-little-bit-easier)
 
 Excel is constantly calculating, formulating, and operating by the use of functions. All functions Excel has to offer use arithmetic to operate, whether it be counting the letters in a word or locating a desired cell. Arithmetic functions are the foundations of several logical functions mentioned below. Harnessing the power of arithmetic functions, Excel elevates the efficiency of data manipulation and analysis, making complex tasks more manageable.
