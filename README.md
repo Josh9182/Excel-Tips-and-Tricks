@@ -379,8 +379,3 @@ Excel offers several powerful text functions that allow you to manipulate, forma
 ```
 =CONCAT(text1,text2,[text3],...) -> =CONCAT(A1,", ",B1)
 ```
-**Text1:** 
-
-**Text2:**
-
-**Text3:**
